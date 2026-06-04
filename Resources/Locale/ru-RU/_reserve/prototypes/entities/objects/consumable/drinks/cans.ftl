@@ -94,9 +94,9 @@ ent-DrinkOrchitoCan = банка Солнца В Бокале
 
 ent-DrinkEnergySugarCan = банка энергетика SugarRush
     .desc = Сладость и энергия в одном напитке!
-ent-DrinkEnergyReserveCan = банка Секрета Резерва
+ent-DrinkEnergyReserveCan = банка Секрета WorldDi
     .desc = Поднимет даже мертвого!
 ent-DrinkEnergyMaxCan = банка энергетика EnergyMax
     .desc = Энергетик с кучей кофеина и других добавок. Опасная вещь, но крайне эффективная.
-ent-DrinkEnergyReserveRobustCan = банка Резерв Робаста
+ent-DrinkEnergyReserveRobustCan = банка WorldDi Робаста
     .desc = Самая ядерная энергосмесь, которую можно выпить и не умереть. Осилишь, ничтожество?
