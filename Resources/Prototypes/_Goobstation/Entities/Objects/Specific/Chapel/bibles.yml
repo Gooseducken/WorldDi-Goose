@@ -1,3 +1,6 @@
+Вот переведённый файл:
+
+```yaml
 # SPDX-FileCopyrightText: 2024 Dae <60460608+ZeroDayDaemon@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2024 Piras314 <p1r4s@proton.me>
 # SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
@@ -9,8 +12,8 @@
 
 - type: entity
   parent: Bible
-  name: Quaran
-  description: "Inshallah."
+  name: Коран
+  description: "Иншаллах."
   id: BibleQuaran
   components:
   - type: Sprite
@@ -20,8 +23,8 @@
 
 - type: entity
   parent: Bible
-  name: Tanakh
-  description: "Choose life, that you and your offspring may live."
+  name: Танах
+  description: "Избери жизнь, дабы жили ты и потомство твоё."
   id: BibleTanakh
   components:
   - type: Sprite
@@ -40,8 +43,8 @@
 
 - type: entity
   parent: Bible
-  name: clockwork slab
-  description: A strange metal tablet. A clock in the center turns around and around.
+  name: заводная скрижаль
+  description: Странная металлическая табличка. Часы в центре вращаются снова и снова.
   id: BibleSlabClockwork
   components:
   - type: Sprite
@@ -51,8 +54,8 @@
 
 - type: entity
   parent: Bible
-  name: slavic-Aryan Vedas
-  description: A book of the new religious movement Ynglism, one of the Slavic neopaganisms.
+  name: Славяно-Арийские Веды
+  description: Книга нового религиозного движения Инглиизм, одного из направлений славянского неоязычества.
   id: BibleVeda
   components:
   - type: Sprite
@@ -62,11 +65,12 @@
 
 - type: entity
   parent: Bible
-  name: book of veles
-  description: It plays a significant role in many directions of Slavic neopaganism, where it is used as a basis and proof of neopagan religiosity.
+  name: Велесова книга
+  description: Играет значительную роль во многих направлениях славянского неоязычества, где используется как основа и доказательство неоязыческой религиозности.
   id: BibleVelesBook
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Chapel/veles_book.rsi
   - type: Item
     sprite: _Goobstation/Objects/Specific/Chapel/veles_book.rsi
+```

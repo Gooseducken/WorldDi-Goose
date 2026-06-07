@@ -21,7 +21,7 @@
 - type: entity
   parent: [ClothingEyesBase, ShowMedicalIcons, ClothingEyesGlassesSunglasses]
   id: ClothingEyesGlassesMedChemFlash
-  name: medichem glasses
+  name: Медихим очки
   description: Sunglasses with a medical hud and solution analyzer.
   components:
   - type: Sprite

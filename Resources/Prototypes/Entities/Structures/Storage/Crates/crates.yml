@@ -628,7 +628,7 @@
 - type: entity
   id: CrateLockBoxScience
   parent: CrateBaseLockBox
-  name: science lock box
+  name: Научный сейф
   components:
   - type: Sprite
     layers:

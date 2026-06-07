@@ -90,8 +90,8 @@
 #START SET SELECTION
 - type: entity
   id: ChaplainUndeterminedBible
-  name: bluespace scripture beacon
-  description: Though I walk through the valley of the shadow of death I will fear no evil, for you are with me.
+  name: блюспейс-маяк писания
+  description: Если я пойду и долиною смертной тени, не убоюсь зла, потому что Ты со мной.
   parent: [ BaseItem, BaseSetSelector ]
   components:
   - type: Sprite
@@ -109,8 +109,8 @@
 
 - type: selectableSet
   id: BibleSet
-  name: The Holy Bible
-  description: Sever any tie, but the ties that bind me to your service and to your heart.
+  name: Святая Библия
+  description: Разорви любые узы, кроме тех, что связывают меня с Твоим служением и Твоим сердцем.
   sprite:
     sprite: Objects/Specific/Chapel/bible.rsi
     state: icon
@@ -119,8 +119,8 @@
 
 - type: selectableSet
   id: QuaranSet
-  name: The Quaran
-  description: Then which of your Lord’s favours will you ˹humans and jinn˺ both deny?
+  name: Коран
+  description: Так какие же из благодеяний вашего Господа вы ˹люди и джинны˺ оба отвергаете?
   sprite:
     sprite: _Goobstation/Objects/Specific/Chapel/allah.rsi
     state: icon
@@ -129,8 +129,8 @@
 
 - type: selectableSet
   id: TanakhSet
-  name: The Tanakh Scrolls
-  description: As you teach, you learn.
+  name: Свитки Танаха
+  description: Обучая, ты учишься сам.
   sprite:
     sprite: _Goobstation/Wizard/Objects/scroll.rsi
     state: scroll2
@@ -139,8 +139,8 @@
 
 - type: selectableSet
   id: ClockworkSet
-  name: The Clockwork Slab
-  description: A link between you and the Celestial Derelict. It contains information, recites scripture, and is your most vital tool as a Servant.
+  name: Заводная Скрижаль
+  description: Связь между тобой и Небесным Остовом. Содержит информацию, читает писания и является твоим самым важным инструментом как Служителя.
   sprite:
     sprite: _ShitChap/Objects/clockwork_slab.rsi
     state: icon
@@ -149,8 +149,8 @@
 
 - type: selectableSet
   id: BibleVedaSet
-  name: Slavic-Aryan Vedas
-  description: Slavic neopaganisms.
+  name: Славяно-Арийские Веды
+  description: Славянское неоязычество.
   sprite:
     sprite: _Goobstation/Objects/Specific/Chapel/veda.rsi
     state: icon
@@ -159,8 +159,8 @@
 
 - type: selectableSet
   id: VelesBookSet
-  name: Book of veles
-  description: Basis and proof of neopagan religiosity.
+  name: Велесова книга
+  description: Основа и доказательство неоязыческой религиозности.
   sprite:
     sprite: _Goobstation/Objects/Specific/Chapel/veles_book.rsi
     state: icon
@@ -169,8 +169,8 @@
 ##END SET SELECTION
 
 - type: entity
-  name: bible
-  description: New Interstellar Version 2340.
+  name: библия
+  description: Новый Межзвёздный Перевод, версия 2340.
   parent: BaseStorageItem
   id: Bible
   components:
@@ -237,8 +237,8 @@
 
 - type: entity
   parent: [Bible, BaseSyndicateContraband]
-  name: necronomicon
-  description: "There's a note: Klatuu, Verata, Nikto -- Don't forget it again!"
+  name: некрономикон
+  description: "Тут записка: Клату, Верата, Никто -- Не забудь это снова!"
   id: BibleNecronomicon
   components:
   - type: Bible
@@ -266,8 +266,8 @@
 - type: entity
   parent: BaseAction
   id: ActionBibleSummon
-  name: Summon familiar
-  description: Summon a familiar that will aid you and gain humanlike intelligence once inhabited by a soul.
+  name: Призвать фамильяра
+  description: Призывает фамильяра, который будет помогать вам и обретёт человекоподобный разум, как только в него вселится душа.
   components:
   - type: Action
     icon: { sprite: Clothing/Head/Hats/witch.rsi, state: icon }

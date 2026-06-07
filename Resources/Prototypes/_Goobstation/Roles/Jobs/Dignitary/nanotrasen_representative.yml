@@ -95,8 +95,8 @@
 
 - type: job
   id: NanotrasenRepresentative
-  name: Nanotrasen Representative
-  description: "Represent NT, Send reports back to them on the station's situation, Inform the heads of anything CentCom orders them to do."
+  name: Представитель Nanotrasen
+  description: "Представляйте NT, отправляйте отчёты о ситуации на станции, информируйте глав о любых приказах ЦентКома."
   playTimeTracker: JobNanotrasenRepresentative
   requirements:
     - !type:DepartmentTimeRequirement

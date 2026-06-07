@@ -269,8 +269,8 @@
 - type: entity
   parent: DrinkBase
   id: Pitcher
-  name: metal pitcher
-  description: A stainless steel insulated pitcher. Everyone's best friend in the morning.
+  name: металлический чайник
+  description: Изолированный чайник из нержавеющей стали. Лучший друг по утрам.
   components:
   - type: SolutionContainerManager
     solutions:

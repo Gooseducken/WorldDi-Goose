@@ -20,8 +20,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterSuitHEV
-  name: H.E.V suit
-  description: Full-body hazardous suit designed to protect wearer from radiation, energy discarges, blunt-force trauma during the handling of hazardous material.
+  name: костюм H.E.V.
+  description: Полноценный защитный костюм, предназначенный для защиты носителя от радиации, электрических разрядов и тупых травм при работе с опасными материалами.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Suits/hev.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: SurveillanceWirelessCameraBodyEntertainment
-  name: nopro camera
-  description: A body mounted camera. It's watching you.
+  name: камера NoPro
+  description: Нательная камера. Она наблюдает за тобой.
   components:
     - type: DeviceNetwork
       deviceNetId: Wireless
@@ -69,7 +69,7 @@
       networkSet: true
       nameSet: True
       mobile: True  # Goobstation - mobile cameras fix
-      id: NoPro Camera
+      id: Камера NoPro
     - type: Eye
     - type: WirelessNetworkConnection
       range: 200
@@ -94,9 +94,9 @@
 - type: entity
   parent: ClothingOuterWizardCentCommReal
   id: WhiteRobes
-  name: robes of the chosen one
-  description: theses white robes are worn by only the finest of Nanotrasen's special operations department.
-  suffix: chosen one
+  name: робы избранного
+  description: Эти белые робы носят только лучшие из отдела специальных операций Nanotrasen.
+  suffix: избранный
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Misc/robesjedi.rsi
@@ -106,8 +106,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterSuitHotDog
-  name: hotdog costume
-  description: Hot-diggity-dog!
+  name: костюм хот-дога
+  description: Хот-диггити-дог!
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Misc/hotdog.rsi
@@ -123,8 +123,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterSuitPickle
-  name: pickle suit
-  description: Smells horribly of vinegar.
+  name: костюм огурца
+  description: Ужасно пахнет уксусом.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Misc/pickle.rsi
@@ -140,8 +140,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterSuitTutu
-  name: tutu
-  description: Why?..
+  name: пачка
+  description: Зачем?..
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Misc/tutu.rsi
@@ -152,14 +152,14 @@
 - type: entity
   parent: ClothingOuterBaseToggleable
   id: ClothingOuterArmorHereticCostume
-  name: occult robes
-  description: A ragged, dusty set of robes. Strange smudgy eyes line the inside.
+  name: оккультные робы
+  description: Рваный, пыльный набор роб. Изнутри подкладка усеяна странными смазанными глазами.
   components:
   - type: Sprite
     sprite: _Goobstation/Heretic/Clothing/OuterClothing/toy_armor.rsi
     state: icon
   - type: Clothing
-    sprite: _Goobstation/Heretic/Clothing/OuterClothing/toy_armor.rsi #idi nakhuy
+    sprite: _Goobstation/Heretic/Clothing/OuterClothing/toy_armor.rsi
   - type: ToggleableClothing # Goobstation - Modsuits change
     clothingPrototypes:
       head: ClothingHeadHatHoodHereticCostume
@@ -167,8 +167,8 @@
 - type: entity
   parent: ClothingOuterBaseToggleable
   id: ClothingOuterSchemaMonk
-  name: monastic vestments
-  description: A sign of complete renunciation of the world and the acceptance of heroism. It is worn by those who have chosen the path of prayer and struggle for the human soul. In the silence of the cosmos, it seems especially appropriate.
+  name: монашеское облачение
+  description: Знак полного отречения от мира и принятия подвига. Его носят те, кто избрал путь молитвы и борьбы за человеческую душу. В тишине космоса оно кажется особенно уместным.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Misc/schema_monk.rsi
@@ -203,8 +203,8 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, BaseMajorContraband]
   id: ClothingOuterBrassArmor
-  name: brass armor
-  description: Old Slavic brass armor, like that of our ancestors.
+  name: латунная броня
+  description: Старославянская латунная броня, как у наших предков.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Misc/brass_armor.rsi
