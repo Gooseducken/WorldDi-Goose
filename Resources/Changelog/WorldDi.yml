@@ -6,3 +6,10 @@ Entries:
   id: 1
   time: '2026-06-10T15:56:00.0000000+00:00'
   url: https://github.com/WorldDiSS14/WorldDi-Station/commit/45c895b5162767ad1fbdd137989e0455f2653fc1
+- author: loksill
+  changes:
+  - message: Многие текстуры ТГфицированны
+    type: Tweak
+  id: 1
+  time: '2026-06-10T15:56:00.0000000+00:00'
+  url: https://github.com/WorldDiSS14/WorldDi-Station/commit/14b1ef117c46f5f5ea143a317bd730168cf0f5d0
