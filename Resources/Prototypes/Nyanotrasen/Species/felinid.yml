@@ -21,7 +21,7 @@
 - type: species
   id: Felinid
   name: species-name-felinid
-  roundStart: true # Goobstation change
+  roundStart: true # WorldDi change
   prototype: MobFelinid
   sprites: MobHumanSprites
   markingLimits: MobFelinidMarkingLimits
