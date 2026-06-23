@@ -1,1 +1,0 @@
-ent-TentacleHook = щупальце
