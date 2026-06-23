@@ -5,7 +5,6 @@ ent-FigureSpawner = спавнер фигурки
 ent-SpacemenFigureSpawner = спавнер минифигурки космонавтов
     .suffix = Только для библиотекарей, маппить с осторожностью!
     .desc = { ent-MarkerBase.desc }
-
 ent-RandomPersonalAI = спавнер случайного персонального ИИ
     .suffix = Нормальный
     .desc = { ent-MarkerBase.desc }

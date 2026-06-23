@@ -10,10 +10,8 @@ miner-weapon-selector-pistols-name = Протокинетические пист
 miner-weapon-selector-pistols-description =
     Два пистолета, которые вы можете держать в двух руках одновременно, чтобы они выглядели как пистолеты со Среднего Запада.
     Наносит приличный урон в обмен на хорошую дальнобойность.
-
 miner-weapon-selector-crusher-name = Топор-крушитель
-miner-weapon-selector-crusher-description =
-    Классическое оружие ближнего боя для рубки тварей Лаваленда.
+miner-weapon-selector-crusher-description = Классическое оружие ближнего боя для рубки тварей Лаваленда.
 miner-weapon-selector-glaive-name = Глефа-крушитель
 miner-weapon-selector-glaive-description =
     Колющее оружие, обладающее высокой дальнобойностью и скоростью атаки

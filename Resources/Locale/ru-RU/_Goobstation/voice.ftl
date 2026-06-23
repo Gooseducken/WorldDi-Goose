@@ -1,2 +1,2 @@
-ui-options-hear-self = Слышать себя? (Голосовой чат)
-ui-options-voice-chat-volume = Громкость голосового чата
+ui-options-hear-self = Hear Yourself (Voice Chat)
+ui-options-voice-chat-volume = Voice Chat Volume

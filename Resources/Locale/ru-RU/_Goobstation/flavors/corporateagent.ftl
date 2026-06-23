@@ -1,12 +1,10 @@
 traitor-nanotrasen-intro = Вы элитный агент.
-traitor-nanotrasen-goal = Nanotrasen отправили вас выполнить задание. Сделайте это так, чтобы вас не поймали и это не вызвало подозрений.
+traitor-nanotrasen-goal = СССП отправило вас для выполнения задач. Выполните их не попавшись, и не вызвав подозрений.
 traitor-nanotrasen-allies = Смерть Синдикату.
-traitor-nanotrasen-uplink = Nanotrasen предоставил вам доступ к черному рынку. Ваш канал связи с ним находится в КПК. Не позволяйте никому узнать об этом. Если вас поймают, вы будете предоставлены сами себе.
-traitor-nanotrasen-roundend = [color=yellow]корпоративный агент[/color]
-
-
-traitor-centralcommand-intro = Вы - главный офицер.
-traitor-centralcommand-goal = Nanotrasen отправили вас выполнить задание. Сделайте это так, чтобы вас не поймали и это не вызвало подозрений.
+traitor-nanotrasen-uplink = СССП дала вам доступ к черному рынку. Аплинк установлен в КПК. Не допустите обнаружения. Если вас поймают, то придется надеяться только на себя.
+traitor-nanotrasen-roundend = [color=yellow]корпоративный агент.[/color]
+traitor-centralcommand-intro = Вы Офицер ГШ
+traitor-centralcommand-goal = Генеральный Штаб отправило вас для выполнения задач. Выполните их не попавшись, и не вызвав подозрений.
 traitor-centralcommand-allies = Смерть Синдикату.
-traitor-centralcommand-uplink = Nanotrasen предоставил вам доступ к черному рынку. Ваш канал связи с ним находится в КПК. Не позволяйте никому узнать об этом. Если вас поймают, вы будете предоставлены сами себе.
-traitor-centralcommand-roundend = [color=yellow]корпоративный агент[/color]
+traitor-centralcommand-uplink = СССП дала вам доступ к черному рынку. Аплинк установлен в КПК. Не допустите обнаружения. Если вас поймают, то придется надеяться только на себя.
+traitor-centralcommand-roundend = [color=yellow]корпоративный агент.[/color]

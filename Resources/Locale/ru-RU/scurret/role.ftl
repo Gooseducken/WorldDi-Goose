@@ -1,6 +1,5 @@
-petting-success-scurret = Вы гладите {THE($target)} по {POSS-ADJ($target)} отличающейся голове.
-petting-failure-scurret = Вы протягиваете руку, чтобы погладить {THE($target)}, но {SUBJECT($target)} делает сальто назад!
-
+petting-success-scurret = Вы гладите { THE($target) } по { POSS-ADJ($target) } отличающейся голове.
+petting-failure-scurret = Вы протягиваете руку, чтобы погладить { THE($target) }, но { SUBJECT($target) } делает сальто назад!
 accent-words-scurret-1 = Ва!
 accent-words-scurret-2 = Ва?
 accent-words-scurret-3 = Ва.
@@ -21,5 +20,4 @@ accent-words-scurret-17 = Ваааааа.
 accent-words-scurret-18 = Ваааааа!
 accent-words-scurret-19 = Ваааааа?
 accent-words-scurret-20 = Ваааааа...
-
 station-event-random-sentience-flavor-scurret = Слизнекот

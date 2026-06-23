@@ -10,3 +10,7 @@ drone-activated = Дрон оживает с характерным жужжан
 drone-too-close = Соблюдайте дистанцию с { THE($being) }.
 drone-cant-use-nearby = Это действие может навредить { THE($being) }. Ваш код запрещает это.
 drone-cant-use = Это действие может навредить станции или её обитателям. Ваш код запрещает это.
+drone-med-battery = Be aware that you will cease to function permanently when your battery runs out.
+drone-low-battery = Seek a charging station immediately. You are in existential danger.
+alerts-drone-battery-name = Battery
+alerts-drone-battery-desc = If your battery depletes, you will self-destruct.

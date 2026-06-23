@@ -46,6 +46,9 @@ traitor-role-codewords =
     { $codewords }.[/color]
     Кодовые слова можно использовать в обычном разговоре, чтобы незаметно идентифицировать себя для других агентов Синдиката.
     Прислушивайтесь к ним и храните их в тайне.
+traitor-role-uplink-pen-code =
+    Spin your pen to the combination [color = lightgray]{ $code }[/color] to unlock your uplink.
+    The degrees represent rotation angles. The uplink locks automatically when closed.
 traitor-role-uplink-code =
     Установите рингтон Вашего КПК на [color = lightgray]{ $code }[/color] чтобы заблокировать или разблокировать аплинк.
     Не забудьте заблокировать его и сменить код, иначе кто угодно из экипажа станции сможет открыть аплинк!
@@ -55,6 +58,7 @@ traitor-role-uplink-implant =
 traitor-role-uplink-radio =
     Вам выдан старомодный радио-аплинк, берегите его.
     Доступ к нему можно получить напрямую из руки или инвентаря.
+traitor-role-uplink-pen-code-short = Your pen uplink code is { $code }. Spin the pen to unlock. Locks when closed.
 traitor-role-uplink-telecrystals =
     Вместо аплинка вам выдали горсть чистых телекристаллов.
     Сами по себе они бесполезны, но вы можете найти другого агента Синдиката, готового обменять их на что-то полезное.

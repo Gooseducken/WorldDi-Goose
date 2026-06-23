@@ -1,2 +1,2 @@
-ghost-role-information-rothulk-name = Гнилая туша
-ghost-role-information-rothulk-description = Призванный Призраком, вы являетесь жалким скопищем грязи и слизи. Уничтожайте всё на своем пути и умрите от взрыва великолепного токсина.
+ghost-role-information-rothulk-name = Гнилой гигант
+ghost-role-information-rothulk-description = Призванный Фантомом, вы — жалкая солянка из грязи и слизи. Уничтожайте всё на своём пути и предсмертно разорвитесь во взрыве смертоносного яда.

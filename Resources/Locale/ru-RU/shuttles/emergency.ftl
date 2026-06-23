@@ -3,12 +3,18 @@
 ## Delay shuttle round end
 
 emergency-shuttle-command-round-desc = Останавливает таймер окончания раунда, когда эвакуационный шаттл покидает гиперпространство.
+cmd-delayroundend-desc = Stops the timer that ends the round when the emergency shuttle exits hyperspace.
+cmd-delayroundend-help = Usage: delayroundend
 emergency-shuttle-command-round-yes = Раунд продлён.
 emergency-shuttle-command-round-no = Невозможно продлить окончание раунда.
 
 ## Dock emergency shuttle
 
+cmd-dockemergencyshuttle-desc = Calls the emergency shuttle and docks it to the station... if it can.
+cmd-dockemergencyshuttle-help = Usage: dockemergencyshuttle
 emergency-shuttle-command-dock-desc = Вызывает спасательный шаттл и пристыковывает его к станции... если это возможно.
+cmd-launchemergencyshuttle-desc = Early launches the emergency shuttle if possible.
+cmd-launchemergencyshuttle-help = Usage: launchemergencyshuttle
 
 ## Launch emergency shuttle
 

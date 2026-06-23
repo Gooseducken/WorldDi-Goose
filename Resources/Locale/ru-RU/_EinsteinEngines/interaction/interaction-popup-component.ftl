@@ -11,4 +11,4 @@ petting-failure-disablerbot = Вы протягиваете руку, чтобы
 petting-failure-weldbot = Вы протягиваете руку, чтобы погладить { $target }, но { POSS-ADJ($target) } сварочный аппарат чуть не обжигает вам руку!
 petting-failure-plantbot = Вы протягиваете руку, чтобы погладить { $target }, но { POSS-ADJ($target) } кусачки чуть не отрывают вам пальцы!
 petting-failure-fillbot = Вы протягиваете руку, чтобы погладить { $target }, но { SUBJECT($target) } отталкивает вашу руку!
-petting-failure-minebot = Вы протягиваете руку, чтобы погладить { $target }, но { SUBJECT($target)} чуть не замахивается на вас своей киркой!
+petting-failure-minebot = Вы протягиваете руку, чтобы погладить { $target }, но { SUBJECT($target) } чуть не замахивается на вас своей киркой!

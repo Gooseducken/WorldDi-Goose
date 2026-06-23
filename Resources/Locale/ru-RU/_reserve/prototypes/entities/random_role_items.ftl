@@ -7,7 +7,6 @@ ent-RandomJanitorTool = { ent-RandomInstruments }
 ent-RandomAtmosTool = { ent-RandomInstruments }
     .suffix = Атмосферный инженер
     .desc = { ent-MarkerBase.desc }
-
 ent-GeneratorBasic15kWChance = спавнер генератора
     .suffix = 15кВт, 50% шанс спавна
     .desc = { ent-MarkerBase.desc }

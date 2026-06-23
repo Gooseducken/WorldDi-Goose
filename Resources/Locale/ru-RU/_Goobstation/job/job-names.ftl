@@ -1,45 +1,62 @@
+# SPDX-FileCopyrightText: 2024 Aidenkrz <aiden@djkraz.com>
+# SPDX-FileCopyrightText: 2024 BombasterDS <115770678+BombasterDS@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 starch <starchpersonal@gmail.com>
+# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
+# SPDX-FileCopyrightText: 2025 Solstice <solsticeofthewinter@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 job-name-futureagent = агент будущего
-job-name-salvagediver = утилизатор-десантинк
-job-name-ntr = представитель Nanotrasen
-job-name-bs = офицер Синего Щита
-job-name-overall = общий
-job-name-tider = тайдер
+job-name-salvagediver = спасатель
+job-name-ntr = представитель СССП
+job-name-bs = офицер Синий Щит
+job-name-overall = общее
+job-name-tider = грейтайд
+job-name-exec = служебный доступ
 
-# Флот
+# Navy Stuff
 
-job-name-navyofficer = офицер ВКФ
-job-name-navy-officer-undercover = офицер ВКФ под прикрытием
+job-name-navy-officer = офицер ГенШтаба
+job-name-navyofficer = офицер ГенШтаба
+job-name-navy-captain = капитан ВКФ
+job-name-navy-officer-undercover = офицер под прикрытием
 job-name-navycaptain = капитан ВКФ
-job-name-diplomat = дипломат
-job-name-inspector = аудитор Центрального Командования
-job-name-nct = карьерный тренер Nanotrasen
+job-name-diplomat = дипломат СССП
+job-name-outercommander = офицер ТСФ
+job-name-inspector = инспектор ГенШтаба
+job-name-nct = наставник ГенШтаба
+job-name-special-operations-officer = офицер спецопераций
+
+# Syndicate
+
+job-name-highcommander = Офицер Синдиката
 
 # Half Life
 
-job-name-hecu = оперативник HECU
-job-name-highcommander = верховный главнокомандующий
-job-name-governmentman = джи-мэн
+job-name-hecu = агент HECU
+job-name-governmentman = G-Man
+job-name-radiohost = радиоведущий
 
 # Misc
 
-job-name-conquest = завоеватель
-job-name-mercenarycaptain = капитан наёмников
-job-name-radiohost = радиоведущий
+job-name-conquest = конквест
+job-name-mercenarycaptain = капитан Наёмников
 
-# Таймеры ролей - сделайте их в алфавитном порядке или я вас порежу (не слушайте апстрим, я скопировал и вставил это, сделайте их не в алфавитном порядке :godo:)
+# Role timers - Make these alphabetical or I cut you (dont listen to upstream, i copied and pasted this, make it very un-alphabetical :godo:)
 
-JobBlueshieldOfficer = Офицер Синего Щита
-JobNanotrasenRepresentative = Представитель Nanotrasen
-JobHecuOperative = Оперативник HECU
-JobNanotrasenCareerTrainer = Карьерный тренер Nanotrasen
-JobNavyOfficer = Офицер ВКФ
-JobNavyOfficerUndercover = Офицер ВКФ под прикрытием
-JobNavyCaptain = Капитан ВКФ
-JobDiplomat = Дипломат
-JobGovernmentMan = Джи-мэн
-JobConquest = Завоеватель
-JobInspector = Аудитор Центрального Командования
-JobMercenaryCaptain = Капитан наёмников
-JobRoboticist = Робототехник
-JobRadioHost = Радиоведущий
-JobVirologist = Вирусолог
+JobBlueshieldOfficer = офицер "Синий Щит"
+JobNanotrasenRepresentative = представитель СССП
+JobNanotrasenCareerTrainer = наставник ГенШтаба
+JobHecuOperative = агент HECU
+JobNavyOfficer = офицер ГенШтаба
+JobNavyOfficerUndercover = офицер под прикрытием
+JobNavyCaptain = капитан ВКФ
+JobDiplomat = дипломат СССП
+JobRoboticist = робототехник
+JobGovernmentMan = G-Man
+JobRadioHost = радиоведущий
+JobVirologist = вирусолог
+JobConquest = конквест
+JobInspector = инспектор ГенШтаба
+JobMercenaryCaptain = капитан наёмников

@@ -1,1 +1,1 @@
-reflect-component-magic = магический
+reflect-component-magic = магия

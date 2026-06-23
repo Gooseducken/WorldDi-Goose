@@ -41,6 +41,7 @@ crime-assist-crime-grandsabotage = Статья 304: Масштабный саб
 crime-assist-crime-sedition = Статья 307: Подстрекательство к демонстрациям
 crime-assist-crime-massriot = Статья 317: Крупный мятеж
 crime-assist-crime-sexualharassment = Статья 300: Сексуальное домогательство
+crime-assist-question-wasitsophont = Was the victim in question a sophont?
 crime-assist-question-wasitsentient = Была ли жертва, о которой шла речь, разумным существом?
 
 # Наказания

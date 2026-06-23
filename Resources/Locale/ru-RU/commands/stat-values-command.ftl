@@ -8,6 +8,15 @@ stat-cargo-id = ID
 stat-cargo-price = Цена
 # Lathe
 stat-lathe-values = Стоимость печати в лате
+# Melee
+stat-melee-values = Melee weapon damage
+stat-melee-id = ID
+stat-melee-base-damage = Base damage
+stat-melee-wield-damage = Wielded damage
+stat-melee-attack-rate = Attack rate
+stat-melee-dps = DPS
+stat-melee-structural-damage = Structure damage
+stat-melee-structural-wield-damage = Wielded structure damage
 stat-lathe-id = ID
 stat-lathe-cost = Стоимость
 stat-lathe-sell = Цена продажи

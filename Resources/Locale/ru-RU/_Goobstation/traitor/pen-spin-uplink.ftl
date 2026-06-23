@@ -1,3 +1,3 @@
-pen-spin-ui-title = Кручение ручкой
-pen-spin-ui-reset = Сброс
-pen-spin-ui-submit = Крутить
+pen-spin-ui-title = Прокрутить
+pen-spin-ui-reset = Сбросить
+pen-spin-ui-submit = Закрутить

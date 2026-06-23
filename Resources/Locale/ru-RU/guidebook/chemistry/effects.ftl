@@ -95,6 +95,21 @@ reagent-effect-guidebook-status-effect =
                *[other] удаляют
             } { NATURALFIXED($time, 3) } { MANY("second", $time) } от { LOC($key) }
     }
+reagent-effect-guidebook-even-health-change =
+    { $chance ->
+        [1]
+            { $healsordeals ->
+                [heals] Evenly heals
+                [deals] Evenly deals
+               *[both] Evenly modifies health by
+            }
+       *[other]
+            { $healsordeals ->
+                [heals] evenly heal
+                [deals] evenly deal
+               *[both] evenly modify health by
+            }
+    } { $changes }
 reagent-effect-guidebook-activate-artifact =
     { $chance ->
         [1] Пытается
@@ -230,6 +245,11 @@ reagent-effect-guidebook-electrocute =
         [1] Бьёт током
        *[other] бьют током
     } употребившего в течении { NATURALFIXED($time, 3) }
+reagent-effect-guidebook-emote =
+    { $chance ->
+        [1] Will force
+       *[other] force
+    } the metabolizer to [bold][color=white]{ $emote }[/color][/bold]
 reagent-effect-guidebook-extinguish-reaction =
     { $chance ->
         [1] Гасит
@@ -339,6 +359,12 @@ reagent-effect-guidebook-add-to-solution-reaction =
         [1] Заставляет
        *[other] заставляют
     } химикаты, применённые к объекту, добавиться во внутренний контейнер для растворов этого объекта
+reagent-effect-guidebook-artifact-unlock =
+    { $chance ->
+        [1] Helps
+       *[other] help
+    } unlock an alien artifact.
+reagent-effect-guidebook-artifact-durability-restore = Restores { $restored } durability in active alien artifact nodes.
 reagent-effect-guidebook-plant-attribute =
     { $chance ->
         [1] Изменяет

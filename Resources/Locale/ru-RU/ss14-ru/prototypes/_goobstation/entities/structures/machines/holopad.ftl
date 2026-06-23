@@ -1,0 +1,9 @@
+ent-HolopadCommandNTR = { ent-Holopad }
+    .suffix = Представитель НТ
+    .desc = { ent-Holopad.desc }
+ent-HolopadCommandBSO = { ent-Holopad }
+    .suffix = БСО
+    .desc = { ent-Holopad.desc }
+ent-HolopadCentComm = { ent-HolopadBluespace }
+    .suffix = ГенШтаб
+    .desc = { ent-HolopadBluespace.desc }

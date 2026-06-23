@@ -6,4 +6,7 @@ zombie-name-prefix = { $baseName }
 zombie-role-desc = Зловещий мертвец.
 zombie-role-rules = Вы - антагонист. Ищите и кусайте живых людей, чтобы заразить их и превратить в зомби. Работайте сообща с другими зомби, чтобы захватить станцию.
 zombie-permadeath = В этот раз вы мертвы по-настоящему.
-zombification-resistance-coefficient-value = - Шанс [color=violet]инфицирования[/color] снижается на [color=lightblue]{$value}%[/color].
+zombification-resistance-coefficient-value = - Шанс [color=violet]инфицирования[/color] снижается на [color=lightblue]{ $value }%[/color].
+# Goob
+zombie-cured-popup = The zombie infection vanishes without a trace!
+zombie-cure-failed-popup = The cure fails to take hold!

@@ -1,1 +1,1 @@
-names-conquest-dataset-1 = Завоеватель
+names-conquest-dataset-1 = Завоевание

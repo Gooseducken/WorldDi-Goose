@@ -28,4 +28,6 @@ ui-vote-fluff = На основе Robust™ СЗИ-НСД
 ## Vote menu command
 
 ui-vote-menu-command-description = Открывает меню голосования
+cmd-votemenu-desc = Opens the voting menu.
+cmd-votemenu-help = Usage: votemenu
 ui-vote-menu-command-help-text = Использование: votemenu

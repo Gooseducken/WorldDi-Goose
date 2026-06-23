@@ -1,0 +1,13 @@
+ent-ClothingModsuitResponsoryEngineering = контроллер скафандра инженерного СОБР
+    .desc = Основной контроллер скафандра инженерного СОБР.
+ent-ClothingModsuitGauntletsResponsoryEngineering = перчатки скафандра инженерного СОБР
+    .desc = Пара перчаток, изготовленных для скафандра инженерного СОБР.
+ent-ClothingModsuitHelmetResponsoryEngineering = шлем скафандра инженерного СОБР
+    .desc = Передовой шлем, разработанный СССП для скафандра инженерного СОБР. Имеет встроенный ИЛС.
+ent-ClothingModsuitChestplateResponsoryEngineering = нагрудная пластина скафандра инженерного СОБР
+    .desc = Передовой нагрудник, разработанный СССП для скафандра инженерного СОБР. Оснащён сервоприводами для снижения нагрузки.
+ent-ClothingModsuitBootsResponsoryEngineering = ботинки скафандра инженерного СОБР
+    .desc = Передовая пара магнитных ботинок для скафандра инженерного СОБР.
+ent-SuitStorageResponsoryEngineering = { ent-SuitStorageBase }
+    .suffix = модульный скафандр инженерного СОБР
+    .desc = { ent-SuitStorageBase.desc }

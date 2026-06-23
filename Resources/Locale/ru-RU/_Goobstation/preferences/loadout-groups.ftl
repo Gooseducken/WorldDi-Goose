@@ -1,60 +1,58 @@
-loadout-group-ntr-head = Головной убор представителя Nanotrasen
-loadout-group-ntr-backpack = Рюкзак представителя Nanotrasen
-loadout-group-ntr-neck = Плащ представителя Nanotrasen
-loadout-group-ntr-jumpsuit = Комбинезон представителя Nanotrasen
-loadout-group-ntr-belt = Пояс представителя Nanotrasen
-loadout-group-ntr-shoes = Обувь представителя Nanotrasen
+# SPDX-FileCopyrightText: 2024 BombasterDS <115770678+BombasterDS@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 DarkenedSynergy <70016079+DarkenedSynergy@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 Piras314 <p1r4s@proton.me>
+# SPDX-FileCopyrightText: 2024 Theapug <159912420+Teapug@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 Weide <64257676+Lyacs@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
+# SPDX-FileCopyrightText: 2025 BombasterDS2 <shvalovdenis.workmail@gmail.com>
+# SPDX-FileCopyrightText: 2025 Solstice <solsticeofthewinter@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
 
-loadout-group-bso-head = Головной убор офицера «Синий Щит»
-loadout-group-bso-backpack = Рюкзак офицера «Синий Щит»
-loadout-group-bso-jumpsuit = Комбинезон офицера «Синий Щит»
-loadout-group-bso-mask = Маска офицера «Синий Щит»
-loadout-group-bso-outer = Броня офицера «Синий Щит»
-loadout-group-bso-shoes = Ботинки офицера «Синий Щит»
-loadout-group-bso-neck = Плащ офицера «Синий Щит»
-
-loadout-group-nct-head = Головной убор карьерного тренера Nanotrasen
-loadout-group-nct-backpack = Рюкзак карьерного тренера Nanotrasen
-loadout-group-nct-jumpsuit = Комбинезон карьерного тренера Nanotrasen
-loadout-group-nct-outerclothing = Верхняя одежда карьерного тренера Nanotrasen
-loadout-group-nct-belt = Пояс карьерного тренера Nanotrasen
-loadout-group-nct-gloves = Перчатки карьерного тренера Nanotrasen
-loadout-group-nct-shoes = Обувь карьерного тренера Nanotrasen
-
-loadout-group-reporter-outerclothing = Верхняя одежда репортёра
-
-loadout-group-roboticist-head = Головной убор робототехника
-loadout-group-roboticist-jumpsuit = Комбинезон робототехника
-loadout-group-roboticist-backpack = Рюкзак робототехника
-loadout-group-roboticist-outerclothing = Верхняя одежда робототехника
-loadout-group-roboticist-gloves = Перчатки робототехника
-loadout-group-roboticist-shoes = Обувь робототехника
-loadout-group-roboticist-id = ID-карта робототехника
-
-loadout-group-security-neck = Плащ службы безопасности
-
-loadout-group-captain-mask = Маска капитана
-
-loadout-group-salvage-specialist-neck = Плащ шахтёра
-
-loadout-group-chemist-head = Головной убор химика
-
-loadout-group-hos-shoes = Обувь главы службы безопасности
-
-loadout-group-brigmedic-jumpsuit = Комбинезон бригмедика
-loadout-group-brigmedic-head = Голова бригмедика
-loadout-group-brigmedic-outer = Верхняя одежда бригмедика
-loadout-group-brigmedic-backpack = Рюкзак бригмедика
-
-loadout-group-security-melee = Оружите ближнего боя
-
-loadout-group-animals = Животные
-
+loadout-group-ntr-head = ПNT, голова
+loadout-group-ntr-backpack = ПNT, рюкзак
+loadout-group-ntr-neck = ПNT, шея
+loadout-group-ntr-jumpsuit = ПNT, комбинезон
+loadout-group-ntr-belt = ПNT, пояс
+loadout-group-ntr-shoes = ПNT, обувь
+loadout-group-bso-head = ОСЩ, голова
+loadout-group-bso-backpack = ОСЩ, рюкзак
+loadout-group-bso-jumpsuit = ОСЩ, комбинезон
+loadout-group-bso-mask = ОСЩ, маска
+loadout-group-bso-outer = ОСЩ, броня
+loadout-group-bso-neck = ОСЩ, шея
+loadout-group-bso-shoes = ОСЩ, обувь
+loadout-group-nct-head = НNT, голова
+loadout-group-nct-backpack = НNT, рюкзак
+loadout-group-nct-jumpsuit = НNT, комбинезон
+loadout-group-nct-outerclothing = НNT, верхняя одежда
+loadout-group-nct-belt = НNT, пояс
+loadout-group-nct-gloves = НNT, перчатки
+loadout-group-nct-shoes = НNT, обувь
+loadout-group-reporter-outerclothing = Корресподент, верхняя одежда
+loadout-group-roboticist-head = Робототехник, голова
+loadout-group-roboticist-jumpsuit = Робототехник, комбинезон
+loadout-group-roboticist-backpack = Робототехник, рюкзак
+loadout-group-roboticist-outerclothing = Робототехник, верхняя одежда
+loadout-group-roboticist-gloves = Робототехник, перчатки
+loadout-group-roboticist-shoes = Робототехник, обувь
+loadout-group-roboticist-id = Робототехник, ID карта
+loadout-group-security-neck = СБ, шея
+loadout-group-captain-mask = Капитан, маска
+loadout-group-salvage-specialist-neck = Утилизатор, шея
+loadout-group-chemist-head = Химик, голова
+loadout-group-hos-shoes = Начальник милиции, обувь
+loadout-group-brigmedic-jumpsuit = Дежурный врач, комбинезон
+loadout-group-brigmedic-head = Дежурный врач, голова
+loadout-group-brigmedic-outer = Дежурный врач, верхняя одежда
+loadout-group-brigmedic-backpack = Дежурный врач, рюкзак
+loadout-group-security-melee = СБ, оружие ближнего боя
+loadout-group-animals = Питомцы
 # Virology
-loadout-group-virologist-jumpsuit = Комбинезон вирусолога
-loadout-group-virologist-backpack = Рюкзак вирусолога
-loadout-group-virologist-outerclothing = Верхняя одежда вирусолога
-loadout-group-virologist-id = ID-карта вирусолога
-
-# RadioHost
-loadout-group-radiohost-jumpsuit = Комбинезон радиоведущего
+loadout-group-virologist-jumpsuit = Вирусолог, комбинезон
+loadout-group-virologist-backpack = Вирусолог, рюкзак
+loadout-group-virologist-outerclothing = Вирусолог, верхняя одежда
+loadout-group-virologist-id = Вирусолог, ID карта
+#RadioHost
+loadout-group-radiohost-jumpsuit = Радиоведущий, комбинезон

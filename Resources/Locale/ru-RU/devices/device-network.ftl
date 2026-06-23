@@ -11,6 +11,10 @@ device-frequency-prototype-name-cyborg-control = Управление кибор
 device-frequency-prototype-name-robotics-console = Консоль управления робототехникой
 # prefixes for randomly generated device addresses
 device-address-prefix-vent = Вент-
+device-frequency-prototype-name-turret = Sentry Turret
+device-frequency-prototype-name-turret-control = Sentry Turret Control
+device-frequency-prototype-name-xenoborg = Xenoborg
+device-frequency-prototype-name-mothership = Mothership
 device-address-prefix-scrubber = Скр-
 device-frequency-prototype-name-surveillance-camera-test = Тест подсети
 device-frequency-prototype-name-surveillance-camera-engineering = Камеры (Инженерный)
@@ -32,6 +36,7 @@ device-address-prefix-volume-pump = ОБН-
 device-address-prefix-smes = СМС-
 # PDAs and terminals
 device-address-prefix-console = Конс-
+device-address-prefix-turret = TRT-
 device-address-prefix-air-alarm = Возд-
 device-address-examine-message = Адрес устройства: { $address }.
 device-address-prefix-sensor-monitor = МОН-

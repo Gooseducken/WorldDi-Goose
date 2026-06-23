@@ -1,35 +1,43 @@
+# SPDX-FileCopyrightText: 2024 Aidenkrz <aiden@djkraz.com>
+# SPDX-FileCopyrightText: 2024 Piras314 <p1r4s@proton.me>
+# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
+# SPDX-FileCopyrightText: 2025 BombasterDS <deniskaporoshok@gmail.com>
+# SPDX-FileCopyrightText: 2025 BombasterDS2 <shvalovdenis.workmail@gmail.com>
+# SPDX-FileCopyrightText: 2025 fishbait <gnesse@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 ## Speech verbs for chat
 
 chat-speech-verb-name-gondola = Гондола
-chat-speech-verb-gondola-1 = вглядывается
-chat-speech-verb-gondola-2 = дышит
-
-chat-speech-verb-name-dead = Мертвый
-chat-speech-verb-dead-1 = солит
+chat-speech-verb-gondola-1 = пялится
+chat-speech-verb-gondola-2 = дует
+chat-speech-verb-name-dead = Мёртв
+chat-speech-verb-dead-1 = сопит
 chat-speech-verb-dead-2 = злится
-chat-speech-verb-dead-3 = справляется
-chat-speech-verb-dead-4 = протекает
-chat-speech-verb-dead-5 = плачет
-chat-speech-verb-dead-6 = ноет
+chat-speech-verb-dead-3 = кипит
+chat-speech-verb-dead-4 = бесится
+chat-speech-verb-dead-5 = скорбит
+chat-speech-verb-dead-6 = жалуется
 chat-speech-verb-dead-7 = стонет
 chat-speech-verb-dead-8 = плачет
-chat-speech-verb-dead-9 = причитает
-
+chat-speech-verb-dead-9 = рыдает
 chat-speech-verb-VoiceModulator-name = Модулятор голоса
 chat-speech-verb-VoiceModulator-1 = модулирует
-chat-speech-verb-VoiceModulator-2 = жужжит
-chat-speech-verb-VoiceModulator-3 = дроны
-chat-speech-verb-VoiceModulator-4 = жужжит
-chat-speech-verb-VoiceModulator-5 = треск
-
-chat-speech-verb-name-holier-than-thou = Более Святой Чем Ты
-chat-speech-verb-holier-than-thou-1 = командует
-chat-speech-verb-holier-than-thou-2 = причитает
-chat-speech-verb-holier-than-thou-3 = формулирует
+chat-speech-verb-VoiceModulator-2 = гудит
+chat-speech-verb-VoiceModulator-3 = жужжит
+chat-speech-verb-VoiceModulator-4 = напевает
+chat-speech-verb-VoiceModulator-5 = потрескивает
+chat-speech-verb-name-holier-than-thou = Благочестивый глас
+chat-speech-verb-holier-than-thou-1 = возглашает
+chat-speech-verb-holier-than-thou-2 = поучает
+chat-speech-verb-holier-than-thou-3 = изрекает
 chat-speech-verb-holier-than-thou-4 = провозглашает
-chat-speech-verb-holier-than-thou-5 = обьявляет
-chat-speech-verb-holier-than-thou-6 = декларирует
-chat-speech-verb-holier-than-thou-7 = возвещает
-chat-speech-verb-holier-than-thou-8 = произносит
-
-chat-manager-entity-say-bolded-language-wrap-message = [BubbleHeader][bold][Name]{$entityName}[/Name][/bold][/BubbleHeader] {$verb}, [font={$fontType} size={$fontSize}]"[BubbleContent][font="{$boldFontType}" size={$fontSize}][color={$color}]{$message}[/color][/font][/BubbleContent]"[/font]
+chat-speech-verb-holier-than-thou-5 = возвещает
+chat-speech-verb-holier-than-thou-6 = декламирует
+chat-speech-verb-holier-than-thou-7 = объявляет
+chat-speech-verb-holier-than-thou-8 = вещает
+chat-speech-verb-name-station-radio = Станционное радио
+chat-speech-verb-station-radio-1 = транслирует
+chat-manager-entity-say-bolded-language-wrap-message = [BubbleHeader][bold][Name]{ $entityName }[/Name][/bold][/BubbleHeader] { $verb }, [font={ $fontType } size={ $fontSize }]"[BubbleContent][font="{ $boldFontType }" size={ $fontSize }][color={ $color }]{ $message }[/color][/font][/BubbleContent]"[/font]

@@ -1,22 +1,21 @@
-wraith-plaguerat-eat-not-satisfy = Вы не можете это есть, это не удовлетворит ваш аппетит.
-wraith-plaguerat-eat-interrupt = Вы были прерваны!
-wraith-plaguerat-eat-you-start = Вы начинаете есть { $target }!
-wraith-plaguerat-eat-you-finish = Вы закончили есть { $target }!
-wraith-plaguerat-bite-you-message = Вы кусаете { $target }!
-ghost-role-information-plagurat-name = Помойная крыса
-ghost-role-information-plaguerat-description = Призванный Призраком, вы маленький, слабый, умирающий от голода. Развивайтесь, поедая мусор, и распространяйте чуму среди всех этих надоедливых членов экипажа, которые пытаются встать у вас на пути!
+wraith-plaguerat-eat-not-satisfy = Вы не можете это съесть, это не утолит ваш голод.
+wraith-plaguerat-eat-interrupt = Вас прервали!
+wraith-plaguerat-eat-you-start = Вы начинаете поедать { $target }!
+wraith-plaguerat-eat-you-finish = Вы закончили поедать { $target }!
+wraith-plaguerat-bite-you-message = Вы укусили { $target }!
+ghost-role-information-plagurat-name = Чумная крыса
+ghost-role-information-plaguerat-description = Призванная Фантомом, вы малы, слабы и голодны. Растите, поедая мусор, и распространяйте чуму среди этих надоедливых членов экипажа, пытающихся встать у вас на пути!
+
 # Unused
 
-wraith-plaguerat-eat-too-far = Это слишком далеко, чтобы есть.
+wraith-plaguerat-eat-too-far = Вы слишком далеко для поедания.
 wraith-plaguerat-eat-nothing = Здесь нечего есть.
-wraith-plaguerat-eat-start = [M] начинает есть [current_target]!
-wraith-plaguerat-eat-finish = [P] ест [current_target]!
-
-wraith-plaguerat-bite-nothing = Тут нечему кусаться.
-wraith-plaguerat-bite-too-far = Это слишком далеко, чтобы укусить.
-wraith-plaguerat-bite-cant-bite = Вы определенно не сможете прокусить насквозь [P.loc].
+wraith-plaguerat-eat-start = [M] начинает поедать [current_target]!
+wraith-plaguerat-eat-finish = [P] поедает [current_target]!
+wraith-plaguerat-bite-nothing = Здесь нечего кусать.
+wraith-plaguerat-bite-too-far = Вы слишком далеко для укуса.
+wraith-plaguerat-bite-cant-bite = Вы точно не можете прокусить [P.loc].
 wraith-plaguerat-bite-message = [holder.owner] кусает [MT]!
-
-wraith-plaguerat-spawn-den-new = Вы создаете крысиное логово.
-wraith-plaguerat-spawn-den-destroyed = У вас было старое крысиное логово, теперь оно разрушено.
-wraith-plaguerat-spawn-den-new-again = Вы создаете новое крысиное логово.
+wraith-plaguerat-spawn-den-new = Вы создаёте крысиное логово.
+wraith-plaguerat-spawn-den-destroyed = У вас было старое крысиное логово, но теперь оно уничтожено.
+wraith-plaguerat-spawn-den-new-again = Вы создаёте новое крысиное логово.

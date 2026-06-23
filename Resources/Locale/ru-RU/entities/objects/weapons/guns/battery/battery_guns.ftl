@@ -1,4 +1,3 @@
-
 ent-BaseWeaponBattery = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-BaseWeaponPowerCell = { ent-BaseItem }

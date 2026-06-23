@@ -1,0 +1,13 @@
+ent-ClothingModsuitResponsoryLeader = контроллер скафандра лидера СОБР
+    .desc = Основной контроллер скафандра лидера СОБР.
+ent-ClothingModsuitGauntletsResponsoryLeader = перчатки скафандра лидера СОБР
+    .desc = Пара перчаток, изготовленных для скафандра лидера СОБР.
+ent-ClothingModsuitHelmetResponsoryLeader = шлем скафандра лидера СОБР
+    .desc = Передовой шлем, разработанный СССП для скафандра лидера СОБР. Имеет встроенный ИЛС.
+ent-ClothingModsuitChestplateResponsoryLeader = нагрудная пластина скафандра лидера СОБР
+    .desc = Передовой нагрудник, разработанный СССП для скафандра лидера СОБР. Оснащён сервоприводами для снижения нагрузки.
+ent-ClothingModsuitBootsResponsoryLeader = ботинки скафандра лидера СОБР
+    .desc = Передовая пара магнитных ботинок для скафандра лидера СОБР.
+ent-SuitStorageResponsoryLeader = { ent-SuitStorageBase }
+    .suffix = модульный скафандр лидера СОБР
+    .desc = { ent-SuitStorageBase.desc }

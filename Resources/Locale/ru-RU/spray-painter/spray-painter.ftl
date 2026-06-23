@@ -5,11 +5,15 @@ spray-painter-ammo-after-interact-refilled = Вы заправили краск�
 spray-painter-interact-no-charges = Недостаточно краски.
 spray-painter-interact-nothing-to-remove = Убирать нечего!
 spray-painter-on-examined-painted-message = Похоже, его только что покрасили.
+spray-painter-style-not-available = Cannot apply the selected style to this object.
 spray-painter-verb-toggle-decals = Переключить нанесение наклеек
 spray-painter-item-status-label = Наклейки: { $mode }
 spray-painter-item-status-add = [color=green]Добавить[/color]
 spray-painter-item-status-remove = [color=red]Удалить[/color]
 spray-painter-item-status-off = [color=gray]Выключено[/color]
+# UI
+spray-painter-window-title = Spray Painter
+spray-painter-selected-style = Selected style:
 # UI
 spray-painter-selected-decals = Выбранная наклейка:
 spray-painter-use-custom-color = Использовать свой цвет
@@ -18,6 +22,15 @@ spray-painter-angle-rotation = Поворот:
 spray-painter-angle-rotation-90-sub = -90°
 spray-painter-angle-rotation-reset = 0°
 spray-painter-angle-rotation-90-add = +90°
+spray-painter-selected-color = Selected color:
+spray-painter-color-red = red
+spray-painter-color-yellow = yellow
+spray-painter-color-brown = brown
+spray-painter-color-green = green
+spray-painter-color-cyan = cyan
+spray-painter-color-blue = blue
+spray-painter-color-white = white
+spray-painter-color-black = black
 # Categories (tabs)
 spray-painter-tab-category-airlocks = Шлюзы
 spray-painter-tab-category-canisters = Баллоны

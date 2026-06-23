@@ -1,7 +1,6 @@
 ent-DrinkCup = чашка
     .suffix = Пусто
     .desc = Темная крепкая чашка.
-
 ent-DrinkEggCooked = яичный суп
     .desc = Простые приготовленные яйца в чашке. Сердито, но дешево.
 ent-DrinkHotRamen = лапшичный суп
@@ -18,7 +17,6 @@ ent-DrinkGarlicSoup = чесночный суп
     .desc = Полноценное блюдо в небольшой чашке. Горько, но хочется еще!
 ent-DrinkNettleSoup = { ent-FoodSoupNettle }
     .desc = { ent-FoodSoupNettle.desc }
-
 ent-DrinkPumpkinSpiceLatte = тыквенный пряный латте
     .desc = Прекрасен на вкус - главное не перехвалить.
 ent-DrinkHotSoyLatte = соевый латте

@@ -20,6 +20,12 @@ mining-voucher-resonator-description =
 mining-voucher-survival-name = Капсула для выживания и РПС шахтёра
 mining-voucher-survival-description = Содержит РПС исследователя, которая позволяет переносить еще больше шахтерского снаряжения, и запасную капсулу-убежище к ней.
 mining-voucher-minebot-name = Кит МайнБота
+mining-voucher-combat-name = Combat Kit
+mining-voucher-combat-description =
+    Contains a kinetic machete and a kinetic dagger. Machete has superior range so you
+    can attack from afar, and dagger can be thrown into enemies to embed and deal critical damage.
+mining-voucher-medical-name = Medical Kit
+mining-voucher-medical-description = Contains 1 medical kit for Brute and Burn damage respectively, and a survival medipen to go with it.
 mining-voucher-minebot-description =
     Содержит маленького минобота-компаньона, который помогает вам хранить руду и охотиться на диких животных.
     Также в комплект входит модернизированный промышленный сварочный инструмент, сварочная маска и модкит KA, который позволяет выстрелам проходить сквозь минобот.

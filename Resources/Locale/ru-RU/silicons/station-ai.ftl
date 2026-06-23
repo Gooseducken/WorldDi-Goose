@@ -5,6 +5,7 @@ wire-name-ai-act-light = ИИС
 station-ai-takeover = ИИ захват
 # Radial actions
 ai-open = Открыть действия
+station-ai-eye-name = AI eye - { $name }
 ai-close = Закрыть действия
 bolt-close = Заболтировать
 bolt-open = Разболтировать

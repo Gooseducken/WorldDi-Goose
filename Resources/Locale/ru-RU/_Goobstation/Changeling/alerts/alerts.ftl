@@ -1,23 +1,22 @@
+# SPDX-FileCopyrightText: 2024 Piras314 <p1r4s@proton.me>
+# SPDX-FileCopyrightText: 2024 username <113782077+whateverusername0@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 whateverusername0 <whateveremail>
+# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 alerts-changeling-chemicals-name = Химикаты
-alerts-changeling-chemicals-desc =
-    Тратьте химикаты, чтобы использовать свои способности. Медленно регенерирует.
-
+alerts-changeling-chemicals-desc = Трать химикаты для использования способностей. Постепенно восстанавливаются.
 alerts-changeling-biomass-name = Биомасса
-alerts-changeling-biomass-desc =
-    Это ваше здоровье. Если оно достигнет 0 - [color=red]игра окончена[/color]. Поглощайте гуманоидов, чтобы восстановить часть здоровья.
-
-alerts-changeling-fleshmend-name = Исправление плоти
-alerts-changeling-fleshmend-desc =
-    Грубый урон быстро восстанавливается! Урон от ожогов и удушья восстанавливается в меньшем объеме. [color=red]Данный эффект не будет работать пока вы в огне или мертвы.[/color]
-
-alerts-changeling-adrenaline-name = Запасы адреналина
-alerts-changeling-adrenaline-desc =
-    Оглушения и большинство методов выведения из строя не дают вам никакого эффекта!
-
-alerts-changeling-panacea-name = Анатомическая панацея
-alerts-changeling-panacea-desc =
-    Нефизические повреждения залечиваются! Происходит очищение от болезней, химических веществ и влияния наркотиков. [color=red]Данный эффект не будет работать пока вы в огне или мертвы.[/color]
-
-alerts-changeling-voidadapt-name = Адаптация к пустоте
-alerts-changeling-voidadapt-desc =
-    Мы адаптируемся к низкому давлению и температуре. [color=yellow]Регенерация химикатов уменьшается на 25%[/color]. [color=red]Данный эффект не будет работать пока вы в огне.[/color]
+alerts-changeling-biomass-desc = Это твоё здоровье. Если достигнет 0 — [color=red]конец игры[/color]. Поглощай гуманоидов, чтобы восстановить часть биомассы.
+alerts-changeling-fleshmend-name = Восстановить плоть
+alerts-changeling-fleshmend-desc = Ушибы быстро залечиваются! Ожоги и удушье лечатся медленнее. [color=red]Исцеление прекратится в случае поджога.[/color]
+alerts-changeling-adrenaline-name = Резерв адреналина
+alerts-changeling-adrenaline-desc = Иммунитет к оглушению, сбиванию с ног и большинству эффектов обездвиживания!
+alerts-changeling-panacea-name = Панацея
+alerts-changeling-panacea-desc = Нефизический урон исцеляется! Болезни, химикаты и воздействия наркотиков очищаются. [color=red]Эффекты прекратятся после контакта с огнём или смерти.[/color]
+alerts-changeling-darkadapt-name = Darkness Adaption
+alerts-changeling-darkadapt-desc = Our body is adjusted to the shroud of darkness. [color=yellow]Chemical regeneration is decreased by 15%[/color]. [color=red]Effects will cease while on fire.[/color]
+alerts-changeling-voidadapt-name = Вакуумная адаптация
+alerts-changeling-voidadapt-desc = Происходит адаптация к экстремальным условиям. [color=yellow]Химическая регенерация остановлена[/color]. [color=red]Эффекты прекратятся после контакта с огнём.[/color]

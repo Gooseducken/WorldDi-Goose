@@ -8,11 +8,9 @@ ui-options-tab-controls = Управление
 ui-options-tab-audio = Аудио
 ui-options-tab-network = Сеть
 ui-options-tab-misc = Основные
-
 ui-options-apply = Сохранить и применить
 ui-options-reset-all = Сброс изменений
 ui-options-default = Сброс к настройкам по умолчанию
-
 ui-options-value-percent = { TOSTRING($value, "P0") }
 
 # Misc/General menu
@@ -49,7 +47,6 @@ ui-options-display-label = Дисплей
 ui-options-quality-label = Качество
 ui-options-misc-label = Разное
 ui-options-interface-label = Интерфейс
-
 ui-options-auto-fill-highlights = Автозаполнение выделений чата от информации о персонаже
 ui-options-highlights-color = Цвет выделений:
 ui-options-highlights-color-example = Это выделенный текст!
@@ -95,6 +92,9 @@ ui-options-vp-integer-scaling-tooltip =
     приводит к чётким текстурам, это часто означает, что сверху/снизу экрана будут
     чёрные полосы или что часть окна не будет видна.
 ui-options-vp-vertical-fit = Подгон окна просмотра по вертикали
+ui-options-filter-label = Scaling filter:
+ui-options-filter-nearest = Nearest (no smoothing)
+ui-options-filter-bilinear = Bilinear (smoothed)
 ui-options-vp-vertical-fit-tooltip =
     Когда функция включена, основное окно просмотра не будет учитывать горизонтальную ось
     при подгонке под ваш экран. Если ваш экран меньше, чем окно просмотра,
@@ -127,11 +127,13 @@ ui-options-header-dev = Разработка
 ui-options-header-general = Основное
 ui-options-header-text-cursor = Текстовый курсор
 ui-options-header-text-cursor-select = Выделение текста
+ui-options-hotkey-default-walk = Walk by default
 ui-options-header-text-edit = Редактирование текста
 ui-options-header-text-chat = Чат
 ui-options-header-text-other = Прочий ввод текста
 ui-options-hotkey-keymap = Использовать клавиши QWERTY (США)
 ui-options-hotkey-toggle-walk = Переключать шаг\бег
+ui-options-function-toggle-knockdown = Toggle Crawling
 ui-options-function-move-up = Двигаться вверх
 ui-options-function-move-left = Двигаться налево
 ui-options-function-move-down = Двигаться вниз
@@ -149,12 +151,14 @@ ui-options-function-use-secondary = Использовать вторично
 ui-options-function-alt-use = Альтернативное использование
 ui-options-function-wide-attack = Размашистая атака
 ui-options-function-activate-item-in-hand = Использовать предмет в руке
+ui-options-function-swap-hands-reverse = Swap hands (other direction)
 ui-options-function-alt-activate-item-in-hand = Альтернативно использовать предмет в руке
 ui-options-function-activate-item-in-world = Использовать предмет в мире
 ui-options-function-alt-activate-item-in-world = Альтернативно использовать предмет в мире
 ui-options-function-drop = Положить предмет
 ui-options-function-examine-entity = Осмотреть
 ui-options-function-swap-hands = Поменять руки
+ui-options-function-smart-equip-back = Smart-equip to back slot
 ui-options-function-move-stored-item = Переместить хранящийся объект
 ui-options-function-rotate-stored-item = Повернуть хранящийся объект
 ui-options-function-save-item-location = Сохранить расположение объекта
@@ -219,6 +223,16 @@ ui-options-function-hotbar1 = 1 слот хотбара
 ui-options-function-hotbar2 = 2 слот хотбара
 ui-options-function-hotbar3 = 3 слот хотбара
 ui-options-function-hotbar4 = 4 слот хотбара
+ui-options-function-hotbar-shift1 = Hotbar slot Shift+1
+ui-options-function-hotbar-shift2 = Hotbar slot Shift+2
+ui-options-function-hotbar-shift3 = Hotbar slot Shift+3
+ui-options-function-hotbar-shift4 = Hotbar slot Shift+4
+ui-options-function-hotbar-shift5 = Hotbar slot Shift+5
+ui-options-function-hotbar-shift6 = Hotbar slot Shift+6
+ui-options-function-hotbar-shift7 = Hotbar slot Shift+7
+ui-options-function-hotbar-shift8 = Hotbar slot Shift+8
+ui-options-function-hotbar-shift9 = Hotbar slot Shift+9
+ui-options-function-hotbar-shift0 = Hotbar slot Shift+0
 ui-options-function-hotbar5 = 5 слот хотбара
 ui-options-function-hotbar6 = 6 слот хотбара
 ui-options-function-hotbar7 = 7 слот хотбара
@@ -272,6 +286,8 @@ ui-options-function-text-cursor-word-left = Передвинуть курсор 
 ui-options-function-text-cursor-word-right = Передвинуть курсор вправо на слово
 ui-options-function-text-cursor-begin = Передвинуть курсор в начало
 ui-options-function-text-cursor-end = Передвинуть курсор в конец
+# Goobstation - Highlight chat sounds!
+ui-options-highlight-sound = Play sound on highlight
 ui-options-function-text-cursor-select = Выделить текст
 ui-options-function-text-cursor-select-left = Расширить выделение влево
 ui-options-function-text-cursor-select-right = Расширить выделение вправо
@@ -287,6 +303,10 @@ ui-options-function-text-word-backspace = Стереть слово
 ui-options-function-text-word-delete = Стереть слово спереди
 ui-options-function-text-newline = Новая строка
 ui-options-function-text-submit = Подтвердить
+ui-options-admin-player-tab-symbol-setting = Character column antag symbols
+ui-options-admin-player-tab-symbol-setting-off = No antag symbol
+ui-options-admin-player-tab-symbol-setting-basic = Show standard antag symbol
+ui-options-admin-player-tab-symbol-setting-specific = Show specific antag symbol
 ui-options-function-multiline-text-submit = Подтвердить несколько строк
 ui-options-function-text-select-all = Выделить всё
 ui-options-function-text-copy = Копировать
@@ -361,34 +381,27 @@ ui-options-function-target-left-leg = Левая нога
 ui-options-function-target-right-leg = Правая нога
 ui-options-function-target-left-foot = Левая ступня
 ui-options-function-target-right-foot = Правая ступня
-
 ui-options-admin-player-panel = Список персонажей в админ меню
-
 ui-options-admin-player-tab-role-setting = Настройки отображения ролей
 ui-options-admin-player-tab-role-setting-roletype = Показывать тип роли
 ui-options-admin-player-tab-role-setting-subtype = Показывать подтип роли
 ui-options-admin-player-tab-role-setting-roletypesubtype = Показывать тип и подтип роли
 ui-options-admin-player-tab-role-setting-subtyperoletype = Показывать подтип и тип роли
-
 ui-options-admin-player-tab-color-setting = Настройки цвета
 ui-options-admin-player-tab-color-setting-off = Я ненавижу цвет
 ui-options-admin-player-tab-color-setting-character = Окрашивать имя персонажа-антаганиста
 ui-options-admin-player-tab-color-setting-roletype = Окрашивать все типы ролей
 ui-options-admin-player-tab-color-setting-both = Окрашивать имя и тип роли
-
 ui-options-admin-overlay-title = Админ-оверлей
-
 ui-options-admin-overlay-antag-format = Стиль отображения
 ui-options-admin-overlay-antag-format-binary = Показывать антаг-статус
 ui-options-admin-overlay-antag-format-roletype = Показывать тип роли
 ui-options-admin-overlay-antag-format-subtype = Показывать подтип роли
 ui-options-admin-overlay-antag-format-off = Не показывать антаг-статус/тип роли
-
 ui-options-admin-overlay-antag-symbol = Стиль символа антагониста
 ui-options-admin-overlay-antag-symbol-off = Без символа антагониста
 ui-options-admin-overlay-antag-symbol-basic = Показывать стандартный символ антагониста
 ui-options-admin-overlay-antag-symbol-specific = Показывать особый символ антагониста
-
 ui-options-admin-enable-overlay-playtime = Показывать наигранное время
 ui-options-admin-enable-overlay-starting-job = Показывать должность
 ui-options-admin-overlay-merge-distance = Расстояние слияния стека
@@ -396,5 +409,6 @@ ui-options-admin-overlay-ghost-fade-distance = Расстояние начала
 ui-options-admin-overlay-ghost-hide-distance = Расстояние полного затухания оверлея при наведении
 
 ## ganimed->reserve port - TranslitSystem
+
 ui-options-toggle-translit-en-to-ru = (Чат) Транслитерирует ваш ввод в латинском алфавите на кириллицу
 ui-options-toggle-translit-ru-to-en = (Чат) Транслитерирует все в окне чата с кириллицы на латиницу

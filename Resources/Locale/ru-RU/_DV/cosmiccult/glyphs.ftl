@@ -1,4 +1,5 @@
 cult-glyph-target-dead = Этот узор никак не влияет на умершего..
+cult-glyph-target-rotting = The glyph's influence has no effect on the rotting.
 cult-glyph-not-enough-cultists = Недостаточно культистов, чтобы активировать узор!
 cult-glyph-conditions-not-met = В радиусе действия узора нет подходящих целей!
 cult-glyph-too-many-targets = На узоре слишком много целей!
