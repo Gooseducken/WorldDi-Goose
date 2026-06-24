@@ -10,6 +10,34 @@ Entries:
   changes:
   - message: Многие текстуры ТГфицированны
     type: Tweak
-  id: 1
+  id: 2
   time: '2026-06-10T15:56:00.0000000+00:00'
   url: https://github.com/WorldDiSS14/WorldDi-Station/commit/14b1ef117c46f5f5ea143a317bd730168cf0f5d0
+- author: Gooseducken
+  changes:
+  - message: Фелиниды теперь есть в кастомизации
+    type: Add
+  id: 3
+  time: '2026-23-10T15:56:00.0000000+00:00'
+  url: https://github.com/WorldDiSS14/WorldDi-Station/pull/7
+- author: Gooseducken
+  changes:
+  - message: Удалены все эмоции пердежа
+    type: Remove
+  id: 4
+  time: '2026-23-10T15:56:00.0000000+00:00'
+  url: https://github.com/WorldDiSS14/WorldDi-Station/pull/9
+- author: Gooseducken
+  changes:
+  - message: Переводы большей части непереведенного
+    type: Add
+  id: 5
+  time: '2026-24-10T14:41:00.0000000+00:00'
+  url: https://github.com/WorldDiSS14/WorldDi-Station/pull/11
+- author: loksill
+  changes:
+  - message: Добавленны автоголосования за режим и карту
+    type: Add
+  id: 6
+  time: '2026-23-10T15:28:00.0000000+00:00'
+  url: https://github.com/WorldDiSS14/WorldDi-Station/pull/12
