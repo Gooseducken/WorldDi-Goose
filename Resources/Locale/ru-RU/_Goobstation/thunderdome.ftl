@@ -1,10 +1,10 @@
 # Ghost HUD button
-thunderdome-ghost-button = Громодом ({ $count })
-thunderdome-ghost-button-default = Громодом (0)
+thunderdome-ghost-button = ДМ-арена ({ $count })
+thunderdome-ghost-button-default = ДМ-арена (0)
 
 # Loadout window
-thunderdome-loadout-title = Экипировка Громодома
-thunderdome-loadout-players = Игроков на арене: { $count }
+thunderdome-loadout-title = Экипировка ДМ-арены
+thunderdome-loadout-players = Игроков на ДМ-арене: { $count }
 thunderdome-loadout-subtitle = Выберите основное оружие
 thunderdome-loadout-confirm = Войти на арену
 
@@ -61,6 +61,6 @@ thunderdome-revival-accept = Вернуться в тело
 thunderdome-revival-decline = Остаться на арене
 
 # Chat / messages
-thunderdome-join = { $player } вошёл на арену Громодома!
-thunderdome-leave = { $player } покинул арену Громодома.
+thunderdome-join = { $player } вошёл на ДМ-арену!
+thunderdome-leave = { $player } покинул ДМ-арену.
 thunderdome-leave-01 = { $user } исчезает, устав от убийств.
