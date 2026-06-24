@@ -1,6 +1,4 @@
 bounty-console-menu-title = Консоль запросов
-bounty-console-tab-available-label = Доступные
-bounty-console-tab-history-label = История
 bounty-console-label-button-text = Распечатать этикетку
 bounty-console-skip-button-text = Пропустить
 bounty-console-time-label = Время: [color=orange]{ $time }[/color]

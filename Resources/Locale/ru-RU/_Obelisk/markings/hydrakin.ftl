@@ -1,9 +1,9 @@
 marking-HydrakinEyesDefault = Обычные глаза
-marking-HydrakinEyesHex = Хекс-глаза
-marking-HydrakinEyesOmega = Омега-глаза
-marking-HydrakinEyesQuad = Четверные глаза
-marking-HydrakinEyesRing = Кольцевые глаза
-marking-HydrakinEyesSaint = Святые глаза
+marking-HydrakinEyesHex = Хекс
+marking-HydrakinEyesOmega = Омега
+marking-HydrakinEyesQuad = Четверные
+marking-HydrakinEyesRing = Кольцевые
+marking-HydrakinEyesSaint = Святые
 
 marking-HydrakinTailDefault = Хвост
 marking-HydrakinTailNub = Куцый хвост

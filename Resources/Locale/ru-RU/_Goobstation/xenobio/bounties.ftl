@@ -1,8 +1,8 @@
 bounty-item-extract-any-three = Любой экстракт слайма
-bounty-item-extract-any-three-tier1 = Любой экстракт слайма 1-ГО УРОВНЯ
-bounty-item-extract-any-three-tier2 = Любой экстракт слайма 2-ГО УРОВНЯ
-bounty-item-extract-any-three-tier3 = Любой экстракт слайма 3-ГО УРОВНЯ
-bounty-item-extract-any-three-tier4 = Любой экстракт слайма 4-ГО УРОВНЯ
+bounty-item-extract-any-three-tier1 = Любой экстракт слайма 1-ГО уровня
+bounty-item-extract-any-three-tier2 = Любой экстракт слайма 2-ГО уровня
+bounty-item-extract-any-three-tier3 = Любой экстракт слайма 3-ГО уровня
+bounty-item-extract-any-three-tier4 = Любой экстракт слайма 4-ГО уровня
 bounty-item-grey-extract = Экстракт [color=#808080]СЕРОГО[/color] слайма
 bounty-item-orange-extract = Экстракт [color=#FFA500]ОРАНЖЕВОГО[/color] слайма
 bounty-item-purple-extract = Экстракт [color=#BA55D3]ФИОЛЕТОВОГО[/color] слайма

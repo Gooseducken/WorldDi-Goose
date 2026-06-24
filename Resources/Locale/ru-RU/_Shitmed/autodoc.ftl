@@ -36,9 +36,9 @@ autodoc-start-program = НАЧНИ РАСПИСАНИЕ
 autodoc-add-step-surgery = РАЗЫГРАЙ ОПЕРАЦИЮ
 autodoc-add-step-grab-item = ВОЗЬМИ ОБЪЕКТ
 # Chinese text translates approximately to "import program")
-autodoc-import-program = ПРОГРАММА ИМПОРТА
+autodoc-import-program = ПРОГРАММА ИМПОРТА 进口计划
 # Chinese text translates approximately to "import program")
-autodoc-export-program = ЭКСПОРТНАЯ ПРОГРАММА
+autodoc-export-program = ЭКСПОРТНАЯ ПРОГРАММА 出口计划
 autodoc-add-step-grab-item-prompt = Имя предмета
 autodoc-add-step-grab-item-placeholder = сердце дворфа
 autodoc-add-step-grab-organ = ВОЗЬМИ ОРГАН
