@@ -68,8 +68,8 @@ holiday-name-christmas = католического Рождества
 holiday-name-festive-season = наступающего Нового года
 holiday-name-boxing-day = Дня подарков
 holiday-name-friday-thirteenth = Дня неприятностей
-# holiday-name-national-coming-out-day = Национального дня каминг-аута #Reserve remove things
-# holiday-name-pride-month = Месяца гордости #Reserve remove things
+holiday-name-national-coming-out-day = Дня осведомлённости и поддержки
+holiday-name-pride-month = Месяца гордости
 
 ## Custom congrats
 

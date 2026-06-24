@@ -21,6 +21,11 @@ network-configurator-link = Соединить
 # ui
 network-configurator-title-saved-devices = Сохранённые устройства
 network-configurator-title-device-configuration = Конфигурация устройств
+network-configurator-text-set = Задать
+network-configurator-text-add = Добавить
+network-configurator-text-clear = Очистить
+network-configurator-text-copy = Копировать
+network-configurator-text-show = Показать
 # ui
 network-configurator-ui-clear-button = Очистить
 network-configurator-ui-count-label =
