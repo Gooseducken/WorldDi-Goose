@@ -4,3 +4,5 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
+ent-ClothingUnderSocksCoder = носки для программистов
+    .desc = Пришло время кодить, сёстры!!11!

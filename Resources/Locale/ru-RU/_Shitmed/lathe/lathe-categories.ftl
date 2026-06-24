@@ -1,1 +1,1 @@
-lathe-category-augments = Импланты
+lathe-category-augments = Augments

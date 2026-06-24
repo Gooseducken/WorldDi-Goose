@@ -1,6 +1,7 @@
 ent-DrinkBottle = бутылка
     .suffix = Пусто, Для напитков
     .desc = Надеемся что без микропластиков.
+
 ent-DrinkJuiceMultifruitBottleFull = бутылка мультифрукта
     .desc = Здоровый вкус союза фруктов.
 ent-DrinkJuicePumpkinBottleFull = бутылка тыквенного рая
@@ -15,8 +16,10 @@ ent-DrinkMangoBoomBottleFull = бутылка мангового бума
     .desc = { ent-DrinkMangoBoomCan.desc }
 ent-DrinkPoisonBoomBottleFull = бутылка ядовитого бума
     .desc = { ent-DrinkPoisonBoomCan.desc }
+
 ent-DrinkSupermaxBottleFull = бутылка супермакс
     .desc = Заряженная синяя газированная сладость.
+
 reagent-name-juice-multifruit = мультифруктовый сок
 reagent-name-supermax = супермакс
 reagent-name-mango-boom = манговый бум

@@ -12,10 +12,10 @@ view-variable-instance-entity-add-window-server-components = Добавить к
 view-variable-instance-entity-add-window-client-components = Добавить компонент [Клиент]
 
 ## SoundSpecifier
-
 vv-sound-none = Нет
 vv-sound-path = Путь
 vv-sound-collection = Коллекция
+
 vv-sound-volume = Громкость
 vv-sound-pitch = Тон
 vv-sound-max-distance = Макс. дистанция
@@ -26,7 +26,6 @@ vv-sound-play-offset = Смещение воспроизведения (с)
 vv-sound-variation = Вариация тона
 
 ## ProtoId
-
 vv-protoid-id-placeholder = ID прототипа
 vv-protoid-select-button-label = Выбрать
 vv-protoid-addwindow-title = Установить прототип

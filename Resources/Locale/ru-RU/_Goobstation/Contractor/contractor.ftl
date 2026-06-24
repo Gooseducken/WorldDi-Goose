@@ -1,2 +1,2 @@
-roles-antag-contractor-name = Наёмник Синдиката
-roles-antag-contractor-description = Похитьте свои цели, живыми или мёртвыми.
+roles-antag-contractor-name = Контрактник
+roles-antag-contractor-description = Заполучите своих целей, живыми или мёртвыми.

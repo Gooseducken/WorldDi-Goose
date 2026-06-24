@@ -41,6 +41,7 @@ artifact-trigger-hint-plasma = Газообразная плазма
 artifact-trigger-hint-land = Активное замедление
 artifact-trigger-hint-examine = Внимательное изучение
 artifact-trigger-hint-medical = Терапевтические химикаты
+
 xenoarch-trigger-tip-music = Гармоничные звуковые колебания
 xenoarch-trigger-tip-heat = Высокотемпературный газ
 xenoarch-trigger-tip-cold = Низкотемпературный газ
@@ -69,21 +70,18 @@ xenoarch-trigger-tip-death = Смерть
 xenoarch-trigger-tip-magnet = Магнитные волны
 
 ## Goob stuff
-
 xenoarch-trigger-tip-bz = БЗ
 xenoarch-trigger-tip-nitrium = Нитриум
 xenoarch-trigger-tip-healium = Хилиум
 xenoarch-trigger-tip-pluoxium = Плюоксиум
 
 ### Description hints
-
 xenoarch-trigger-examine-wrenching = Там что-то не так крутится.
 xenoarch-trigger-examine-prying = С поверхности поднимается панель.
 xenoarch-trigger-examine-screwing = На нем есть выступающая часть с небольшой вставкой.
 xenoarch-trigger-examine-pulsing = Из поверхности артефакта торчит открытый диод.
-xenoarch-trigger-examine-timer = Поверхность покрыта резьбой и царапинами... Вы едва можете разобрать номер: [italic]{ $time }[/italic]
+xenoarch-trigger-examine-timer = Поверхность покрыта резьбой и царапинами... Вы едва можете разобрать номер: [italic]{$time}[/italic]
 
 ### Effects hints
-
-xenoarch-effect-puddle = Образует лужу из следующих реагентов: { $reagent }
-xenoarch-effect-foam = Образует пену из следующих реагентов: { $reagent }
+xenoarch-effect-puddle = Образует лужу из следующих реагентов: {$reagent}
+xenoarch-effect-foam = Образует пену из следующих реагентов: {$reagent}

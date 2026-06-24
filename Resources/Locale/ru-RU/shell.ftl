@@ -11,7 +11,6 @@ shell-must-be-attached-to-entity = Для выполнения этой кома
 
 ## Arguments
 
-shell-must-have-body = You must have a body to run this command.
 shell-need-exactly-one-argument = Нужен ровно один аргумент.
 shell-wrong-arguments-number-need-specific =
     Нужно { $properAmount } { $properAmount ->
@@ -30,12 +29,10 @@ shell-need-between-arguments = Нужно от { $lower } до { $upper } арг
 shell-need-minimum-arguments = Нужно не менее { $minimum } аргументов!
 shell-need-minimum-one-argument = Нужен хотя бы один аргумент!
 shell-argument-uid = EntityUid
-shell-need-exactly-zero-arguments = This command takes zero arguments.
 
 ## Guards
 
 shell-entity-is-not-mob = Целевая сущность не является мобом!
-shell-missing-required-permission = You need { $perm } for this command!
 shell-invalid-entity-id = Недопустимый ID сущности.
 shell-invalid-grid-id = Недопустимый ID сетки.
 shell-invalid-map-id = Недопустимый ID карты.
@@ -46,7 +43,6 @@ shell-could-not-find-entity = Не удалось найти сущность { 
 shell-could-not-find-entity-with-uid = Не удалось найти сущность с uid { $uid }.
 shell-entity-with-uid-lacks-component = Сущность с uid { $uid } не имеет компонента { $componentName }.
 shell-invalid-color-hex = Недопустимый HEX-цвет!
-shell-entity-target-lacks-component = Target entity doesn't have { INDEFINITE($componentName) } { $componentName } component
 shell-target-player-does-not-exist = Целевой игрок не существует!
 shell-target-entity-does-not-have-message = Целевая сущность не имеет { $missing }!
 shell-timespan-minutes-must-be-correct = { $span } не является допустимым промежутком времени в минутах.

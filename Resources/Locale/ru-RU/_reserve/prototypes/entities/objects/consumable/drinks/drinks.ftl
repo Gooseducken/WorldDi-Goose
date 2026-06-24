@@ -1,9 +1,11 @@
+ent-DrinkBacchusBlessing = { ent-DrinkGlass }
+    .desc = Вы не думали, что жидкость может быть настолько отвратительной. Вы уверены в этом?..
+    .suffix = Благословение бахуса
 
 # Orchito start
 ent-DrinkOrchitoGlass = { ent-DrinkGlass }
     .desc = { ent-DrinkGlass.desc }
     .suffix = Орхито
-
 # Orchito end
 
 ent-DrinkAppleJuice = { ent-DrinkGlass }
@@ -30,6 +32,7 @@ ent-DrinkPineappleJuice = { ent-DrinkGlass }
 ent-DrinkPotatoJuice = { ent-DrinkGlass }
     .desc = { ent-DrinkGlass.desc }
     .suffix = Картофельный сок
+
 ent-DrinkChangelingStingGlass = { ent-DrinkGlass }
     .desc = { ent-DrinkGlass.desc }
     .suffix = Жало генокрада
@@ -48,6 +51,7 @@ ent-DrinkStarkistGlass = { ent-DrinkGlass }
 ent-DrinkShamblersJuice = { ent-DrinkGlass }
     .desc = { ent-DrinkGlass.desc }
     .suffix = Сок Шемблер
+
 ent-DrinkCreamOfCoconutGlass = { ent-DrinkGlass }
     .desc = { ent-DrinkGlass.desc }
     .suffix = Кокосовые сливки
@@ -78,6 +82,7 @@ ent-DrinkPilkGlass = { ent-DrinkGlass }
 ent-DrinkMopwataGlass = { ent-DrinkGlass }
     .desc = { ent-DrinkGlass.desc }
     .suffix = Вкуснейшая швабода
+
 ent-DrinkEnzymeGlass = { ent-DrinkGlass }
     .desc = { ent-DrinkGlass.desc }
     .suffix = Универсальный фермент

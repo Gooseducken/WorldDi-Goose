@@ -1,3 +1,15 @@
+ent-TapeRecorder = диктофон
+    .desc = Все, что будет сказано в это устройство, может и будет использовано против вас в суде по космическому закону.
+ent-TapeRecorderFilled = { ent-TapeRecorder }
+    .desc = { ent-TapeRecorder.desc }
+    .suffix = Заполненный
+ent-CassetteTape = кассета
+    .desc = Магнитная лента, на которой может быть записано до двух минут аудио с каждой стороны.
+ent-CassetteTapeInterview = { ent-CassetteTape }
+    .desc = { ent-CassetteTape.desc }
+    .suffix = Интервью с Гарри Смош
+ent-TapeRecorderTranscript = транскрипция записи
+    .desc = { ent-Paper.desc }
 interview-with-garry-smosh = Интервью с Гарри Смош
 interview-with-garry-smosh-phil-dervin = Фил Дервин
 interview-with-garry-smosh-garry-smosh = Гарри Смош

@@ -22,6 +22,7 @@ ent-RandomDrinkJuice = спавнер случайный напиток
 ent-RandomDrinkMilk = спавнер случайный напиток
     .suffix = Молоко в стакане
     .desc = { ent-MarkerBase.desc }
+
 ent-RandomFoodCondimentBottle = спавнер случайный соус
     .suffix = Бутылка
     .desc = { ent-MarkerBase.desc }

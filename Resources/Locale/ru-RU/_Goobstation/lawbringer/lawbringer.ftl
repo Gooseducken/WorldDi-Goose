@@ -1,1 +1,1 @@
-lawbringer-phrase = Я ЕСТЬ ЗАКОН
+lawbringer-phrase = Я ЗДЕСЬ ЗАКОН

@@ -16,7 +16,6 @@ popup-grab-soft-others = { CAPITALIZE($puller) } легко схватил { CAP
 popup-grab-hard-others = { CAPITALIZE($puller) } крепко ухватился за { CAPITALIZE($target) }.
 popup-grab-suffocate-others = { CAPITALIZE($puller) } начал задыхаться { CAPITALIZE($target) }!
 popup-grab-no-others = { CAPITALIZE($puller) } перестал удерживать { CAPITALIZE($target) }.
-popup-grab-release-too-soon = You are still tired after the previous attempt.
 popup-grab-release-fail-self = Вы пытаетесь сбежать.
 popup-grab-release-success-self = Вы сбежали из захвата!
 popup-grab-release-success-puller = { CAPITALIZE($target) } сбегает!

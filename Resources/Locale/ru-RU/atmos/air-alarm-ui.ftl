@@ -3,7 +3,6 @@
 ## Window
 
 air-alarm-ui-access-denied = Недостаточный уровень доступа!
-air-alarm-ui-title = Air Alarm
 air-alarm-ui-window-pressure-label = Давление
 air-alarm-ui-window-temperature-label = Температура
 air-alarm-ui-window-alarm-state-label = Статус
@@ -12,7 +11,6 @@ air-alarm-ui-window-device-count-label = Всего устройств
 air-alarm-ui-window-resync-devices-label = Ресинхр
 air-alarm-ui-window-mode-label = Режим
 air-alarm-ui-window-auto-mode-label = Авто-режим
-air-alarm-ui-window-mode-select-locked-label = [bold][color=red] Mode selector failure! [/color][/bold]
 -air-alarm-state-name =
     { $state ->
         [normal] Нормально
@@ -41,15 +39,6 @@ air-alarm-ui-mode-none = Нет
 
 ## Widgets
 
-air-alarm-ui-pump-direction-siphoning = Siphoning
-air-alarm-ui-pump-direction-scrubbing = Scrubbing
-air-alarm-ui-pump-direction-releasing = Releasing
-air-alarm-ui-pressure-bound-nobound = No Bound
-air-alarm-ui-pressure-bound-internalbound = Internal Bound
-air-alarm-ui-pressure-bound-externalbound = External Bound
-air-alarm-ui-pressure-bound-both = Both
-air-alarm-ui-widget-gas-filters = Gas Filters
-
 ### General
 
 air-alarm-ui-widget-enable = Включено
@@ -73,8 +62,6 @@ air-alarm-ui-scrubber-wide-net-label = ШирокаяСеть
 
 ### Thresholds
 
-air-alarm-ui-scrubber-select-all-gases-label = Select all
-air-alarm-ui-scrubber-deselect-all-gases-label = Deselect all
 air-alarm-ui-sensor-gases = Газы
 air-alarm-ui-sensor-thresholds = Границы
 air-alarm-ui-thresholds-pressure-title = Границы (кПа)
@@ -84,5 +71,3 @@ air-alarm-ui-thresholds-upper-bound = Верхняя аварийная гран
 air-alarm-ui-thresholds-lower-bound = Нижняя аварийная граница
 air-alarm-ui-thresholds-upper-warning-bound = Верхняя тревожная граница
 air-alarm-ui-thresholds-lower-warning-bound = Нижняя тревожная граница
-air-alarm-ui-thresholds-copy = Copy thresholds to all devices
-air-alarm-ui-thresholds-copy-tooltip = Copies the sensor thresholds of this device to all devices in this air alarm tab.

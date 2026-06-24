@@ -1,0 +1,12 @@
+ent-PartHydrakin = часть тела гидрокина
+ent-TorsoHydrakin = торс гидрокина
+ent-HeadHydrakin = голова гидрокина
+ent-GroinHydrakin = пах гидрокина
+ent-LeftArmHydrakin = левая рука гидрокина
+ent-RightArmHydrakin = правая рука гидрокина
+ent-LeftHandHydrakin = левая кисть гидрокина
+ent-RightHandHydrakin = правая кисть гидрокина
+ent-LeftLegHydrakin = левая нога гидрокина
+ent-RightLegHydrakin = правая нога гидрокина
+ent-LeftFootHydrakin = левая ступня гидрокина
+ent-RightFootHydrakin = правая ступня гидрокина

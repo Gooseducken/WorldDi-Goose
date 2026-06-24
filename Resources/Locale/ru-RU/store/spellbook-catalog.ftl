@@ -14,14 +14,8 @@ spellbook-charge-name = Зарядка
 spellbook-charge-desc = Добавляет заряд вашей палочке!
 spellbook-ethereal-jaunt-name = Эфирная прогулка
 spellbook-ethereal-jaunt-description = Перейдите на Эфирный план чтобы ускользнуть от врагов!
-spellbook-mind-swap-name = Смена разума
-spellbook-mind-swap-description = Позволяет поменяться телами с находящейся рядом целью. В момент обмена вы оба будете сбиты с ног, и если кто-то станет свидетелем этого процесса, для него будет совершенно очевидно, что вы находитесь в теле цели.
-Не работает на генокрадах, еретиках, гулях, призраках и временных существах.
-Не требует наличия робы и шляпы Раздора для применения.
-spellbook-tile-toggle-name = Передвижение по плиткам
+spellbook-tile-toggle-name = Тайловое движение
 spellbook-tile-toggle-description = Ассистентам это не понравится.
-spellbook-curse-of-byond-name = Проклятие Биьонда
-spellbook-curse-of-byond-description = Обреките свою цель на вечные страдания.
 
 # Equipment
 
@@ -32,11 +26,13 @@ spellbook-wand-polymorph-carp-description = На случай, когда вам
 spellbook-wand-locker-name = Волшебная палочка шкафчика
 spellbook-wand-locker-description = Стреляйте в своих врагов проклятыми шкафчиками и запирайте их!
 spellbook-staff-animation-description = Оживите неодушевлённые предметы!
+spellbook-echo-katana-name = Эхо-катана
+spellbook-echo-katana-desc = Вы когда-нибудь пытались навредить члену экипажа звуком? Теперь у вас получится!
 
 # Events
 
 spellbook-event-summon-ghosts-name = Призыв призраков
-spellbook-event-summon-ghosts-description = Кого ты призовёшь?
+spellbook-event-summon-ghosts-description = И кого ты позовёшь?
 spellbook-event-summon-guns-name = Призыв оружия
 spellbook-event-summon-guns-description = АК-47 для всех! Размещает перед каждым случайное огнестрельное оружие. Отключает возврат средств при покупке!
 spellbook-event-summon-magic-name = Призыв магии

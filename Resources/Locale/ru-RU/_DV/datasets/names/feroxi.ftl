@@ -1,5 +1,4 @@
 ## First, Male
-
 names-feroxi-first-male-dataset-1 = Аалто
 names-feroxi-first-male-dataset-2 = Бахари
 names-feroxi-first-male-dataset-3 = Каспиан
@@ -43,7 +42,6 @@ names-feroxi-first-male-dataset-40 = Тхабу
 names-feroxi-first-male-dataset-41 = Вару
 
 ## First, Female
-
 names-feroxi-first-female-dataset-1 = Видхун
 names-feroxi-first-female-dataset-2 = Бахара
 names-feroxi-first-female-dataset-3 = Дарья
@@ -87,7 +85,6 @@ names-feroxi-first-female-dataset-40 = Сеси
 names-feroxi-first-female-dataset-41 = Зулай
 
 ## Last
-
 names-feroxi-last-dataset-1 = Агуэро
 names-feroxi-last-dataset-2 = Алави
 names-feroxi-last-dataset-3 = Альпин

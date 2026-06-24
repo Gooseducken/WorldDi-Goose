@@ -1,3 +1,0 @@
-ent-CoreSubstation = { "" }
-    .desc = { "" }
-

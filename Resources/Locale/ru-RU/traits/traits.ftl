@@ -49,6 +49,7 @@ trait-newyork-name = Нью-йоркский акцент
 trait-newyork-desc = Вы говорите с ярко выраженным нью-йоркским акцентом. I'm walkin' 'ere!
 trait-british-name = Британский акцент
 trait-british-desc = Вы говорите правильно, не в пример этим чёртовым янки.
+
 trait-atheist-name = Атеист
 trait-atheist-desc = Вы атеист. Вы не можете молиться.
 trait-buddhist-name = Буддист

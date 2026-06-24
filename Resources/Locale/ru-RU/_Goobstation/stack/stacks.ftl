@@ -10,21 +10,6 @@ stack-bscrystal-unprocessed =
     }
 stack-bingle-tile =
     { $amount ->
-        [1] бингл плитка
-       *[other] бингл плитки
-    }
-stack-hex-nut =
-    шестигранная { $amount ->
-        [1] гайка
-       *[other] гайки
-    }
-stack-screw =
-    { $amount ->
-        [1] винт
-       *[other] винты
-    }
-stack-canvas-tile =
-    { $amount ->
-        [1] canvas tile
-       *[other] canvas tiles
+        [1] бингл-покрытие
+       *[other] бингл-покрытия
     }

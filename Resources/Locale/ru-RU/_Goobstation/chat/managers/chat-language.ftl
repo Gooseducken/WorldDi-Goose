@@ -1,2 +1,2 @@
-chat-language-SpaceItalian-name = Космо-итальянский
-chat-language-Cheval-name = Парнокопытный
+chat-language-SpaceItalian-name = Космический итальянский
+chat-language-Cheval-name = Чевал

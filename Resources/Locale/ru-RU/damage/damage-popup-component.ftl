@@ -6,4 +6,5 @@
         [hit] Попадание
        *[other] Неизвестно
     }
+
 damage-popup-component-switched = Выбранный тип: { -damage-popup-component-type(setting: $setting) }

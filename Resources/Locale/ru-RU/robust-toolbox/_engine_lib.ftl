@@ -64,11 +64,10 @@ zzzz-reflexive-pronoun =
        *[neuter] сам
     }
 # Used internally by the CONJUGATE-BE() function.
-zzzz-conjugate-be =
-    { GENDER($ent) ->
-        [epicene] { "" }
-       *[other] { "" }
-    }
+zzzz-conjugate-be = { GENDER($ent) ->
+    [epicene] {""}
+   *[other] {""}
+}
 # Used internally by the CONJUGATE-HAVE() function.
 zzzz-conjugate-have =
     { GENDER($ent) ->

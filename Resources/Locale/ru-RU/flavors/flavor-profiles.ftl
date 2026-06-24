@@ -56,8 +56,6 @@ flavor-base-chewy = жевательно
 # Complex flavors. Put a flavor here when you want something that's more
 # specific.
 
-flavor-base-trashy = trashy
-flavor-base-motivating = motivating
 flavor-complex-nothing = как ничто
 flavor-complex-honey = как мёд
 
@@ -188,7 +186,6 @@ flavor-complex-false-meat = как не совсем не мясо
 flavor-complex-paper = как кашеобразная масса
 flavor-complex-compressed-meat = как спрессованное мясо
 flavor-complex-alcohol = как алкоголь
-flavor-complex-dog-food = like dog food
 flavor-complex-soda = как газировка
 flavor-complex-juice = как сок
 
@@ -347,4 +344,3 @@ flavor-complex-bottledlightning = как молния в бутылке
 flavor-complex-punishment = как наказание
 flavor-weh = как вех
 flavor-hew = как гвоздь
-flavor-complex-artifact-glue = like crushed artifacts

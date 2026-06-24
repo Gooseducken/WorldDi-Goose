@@ -12,11 +12,13 @@ ent-SpawnMobJonkBot = спавнер кринжбота
     .desc = { ent-MarkerBase.desc }
 ent-SpawnMobMimeBot = спавнер мимбота
     .desc = { ent-MarkerBase.desc }
+
 ent-SpawnMobFunBot = спавнер случайного веселого минибота-помощника
     .desc = { ent-MarkerBase.desc }
     .suffix = хонкбот, кринжбот, мимбот
 ent-SpawnMobAnyBot = спавнер случайного минибота-помощника
     .desc = { ent-MarkerBase.desc }
+
 ent-SpawnMobMedibotChance10 = { ent-SpawnMobMedibot }
     .desc = { ent-SpawnMobMedibot.desc }
     .suffix = Шанс 10%
