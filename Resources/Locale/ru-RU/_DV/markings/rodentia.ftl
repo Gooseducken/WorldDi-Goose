@@ -12,7 +12,7 @@ marking-RodentiaHeadRound-round = Паттерн
 ## ears
 
 marking-RodentiaHeadTopEarBat = Уши - Летучая мышь
-marking-RodentiaHeadTopEarDefault = Rodentia Ears
+marking-RodentiaHeadTopEarDefault = Уши Родентии
 marking-RodentiaHeadTopEarBat-bat = Наружное ухо
 marking-RodentiaHeadTopEarBatLarge = Уши - летучая мышь (большие)
 marking-RodentiaHeadTopEarBatLarge-bat_large = Наружное ухо
