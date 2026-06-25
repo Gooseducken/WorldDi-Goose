@@ -130,6 +130,7 @@
     - id: Wrench # Goobstation
     - id: ContrabandDetectorFlatpack # Goobstation
     - id: SecurityMegaphone # goob - loudspeakers
+    - id: DegartPlushie # WorldDi
 
 - type: entityTable
   id: FillLockerWardenHarduit
