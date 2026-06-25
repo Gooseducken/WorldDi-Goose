@@ -1,0 +1,14 @@
+ent-LoksasaPlushie = Алиса Крылова
+    .desc = Спидран полного сервера РНД за 30 минут. Поехали!
+ent-NevkusnyPlushie = Антон Гриффитов
+    .desc = Великий Гнтон Ариффитов
+ent-NobodyscanPlushie = Святослав Окоми
+    .desc = Мелкий фелинид работающий сервисником. Добрый.
+ent-FitzPlushie = Фитц Симмонс
+    .desc = Литерали 1984.
+ent-NyphovalkPlushie = Расти Сангрэ
+    .desc = Прекрасное создание природы. (Почему оно существует...)
+ent-DegartPlushie = Degart
+    .desc = Щиткурити монстр.
+ent-EyesPlushie = Eyes
+    .desc = Фурри. РОЗОВОЕ ФУРРИ!
