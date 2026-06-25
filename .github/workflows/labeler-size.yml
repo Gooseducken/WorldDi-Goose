@@ -13,6 +13,7 @@ jobs:
     steps:
       - name: size-label
         uses: "pascalgn/size-label-action@v0.5.5"
+        # WorldDi fix tests
         env:
           GITHUB_TOKEN: "${{ secrets.BOT_TOKEN }}"
         with:
