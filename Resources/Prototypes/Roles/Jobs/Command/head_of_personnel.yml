@@ -152,10 +152,12 @@
     - !type:DepartmentTimeRequirement
       department: Command
       time: 14400 # 4 hours
-    - !type:SpeciesRequirement # Goob - None Felinid
-      inverted: true
-      species:
-      - Felinid
+    # WorildDi comment start
+    #- !type:SpeciesRequirement # Goob - None Felinid
+    #  inverted: true
+    #  species:
+    #  - Felinid
+    # WorildDi comment end
   guides: # goobstation
   - Command
   - Succession

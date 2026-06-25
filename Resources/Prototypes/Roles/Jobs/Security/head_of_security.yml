@@ -151,10 +151,12 @@
     - !type:DepartmentTimeRequirement
       department: Security
       time: 36000 # 10 hrs
-    - !type:SpeciesRequirement # Goob - None Felinid
-      inverted: true
-      species:
-      - Felinid
+    # WorildDi comment start
+    #- !type:SpeciesRequirement # Goob - None Felinid
+    #  inverted: true
+    #  species:
+    #  - Felinid
+    # WorildDi comment end
   #  - !type:StyleRequirement
   #    styles:
   #    - HumanHairFloorlengthBedhead
