@@ -6,6 +6,7 @@ shared-solution-container-component-on-examine-main-text = Содержит [col
 shared-solution-container-component-on-examine-worded-amount-one-reagent = вещество.
 shared-solution-container-component-on-examine-worded-amount-multiple-reagents = вещество-смесь.
 examinable-solution-has-recognizable-chemicals = В этом растворе вы можете распознать { $recognizedString }.
+examinable-solution-recognized = [color={ $color }]{ $chemical }[/color]
 examinable-solution-recognized-first = [color={ $color }]{ $chemical }[/color]
 examinable-solution-recognized-next = , [color={ $color }]{ $chemical }[/color]
 examinable-solution-recognized-last = и [color={ $color }]{ $chemical }[/color]

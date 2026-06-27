@@ -122,6 +122,12 @@ namespace Content.Client.Access.UI
             }
 
             JobPresetOptionButton.OnItemSelected += SelectJobPreset;
+            GrantAllAccessButton.OnPressed += _ => GrantAllAccess(); // WorldDi-Edit
+            RevokeAllAccessButton.OnPressed += _ => // WorldDi-Edit
+            {
+                ClearAllAccess();
+                SubmitData();
+            }; // WorldDi-Edit
             _accessButtons.Populate(accessLevels, prototypeManager);
             AccessLevelControlContainer.AddChild(_accessButtons);
 
@@ -141,6 +147,21 @@ namespace Content.Client.Access.UI
                 }
             }
         }
+
+        // WorldDi-Edit Start
+        private void GrantAllAccess()
+        {
+            foreach (var button in _accessButtons.ButtonsList.Values)
+            {
+                if (!button.Disabled && !button.Pressed)
+                {
+                    button.Pressed = true;
+                }
+            }
+
+            SubmitData();
+        }
+        // WorldDi-Edit End
 
         private void SelectJobPreset(OptionButton.ItemSelectedEventArgs args)
         {
@@ -221,6 +242,8 @@ namespace Content.Client.Access.UI
             JobTitleSaveButton.Disabled = !interfaceEnabled || !jobTitleDirty;
 
             JobPresetOptionButton.Disabled = !interfaceEnabled;
+            GrantAllAccessButton.Disabled = !interfaceEnabled; // WorldDi-Edit
+            RevokeAllAccessButton.Disabled = !interfaceEnabled; // WorldDi-Edit
 
             _accessButtons.UpdateState(state.TargetIdAccessList?.ToList() ??
                                        new List<ProtoId<AccessLevelPrototype>>(),

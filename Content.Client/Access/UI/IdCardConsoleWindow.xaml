@@ -44,6 +44,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
             <Label Text="{Loc 'id-card-console-window-job-selection-label'}" />
             <OptionButton Name="JobPresetOptionButton" />
         </GridContainer>
+        <!-- WorldDi-Edit Start -->
+        <BoxContainer Orientation="Horizontal" Margin="0 4 0 0">
+            <Button Name="GrantAllAccessButton" Text="{Loc 'id-card-console-window-grant-all-access-button'}" HorizontalExpand="True" />
+            <Button Name="RevokeAllAccessButton" Text="{Loc 'id-card-console-window-revoke-all-access-button'}" HorizontalExpand="True" />
+        </BoxContainer>
+        <!-- WorldDi-Edit End -->
         <!-- Goobstation Start -->
         <GridContainer Columns="3">
             <Label Text="{Loc 'id-card-console-window-job-search-label'}" />
