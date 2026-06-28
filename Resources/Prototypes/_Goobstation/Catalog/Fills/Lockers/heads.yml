@@ -36,6 +36,7 @@
       amount: !type:ConstantNumberSelector
         value: 5
     - id: NanoRepStationReport # Goobstation
+    - id: FitzPlushie # WorldDi
 
 - type: entity
   id: LockerNanorepFilled
