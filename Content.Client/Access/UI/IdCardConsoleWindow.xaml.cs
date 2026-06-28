@@ -221,8 +221,6 @@ namespace Content.Client.Access.UI
             JobTitleSaveButton.Disabled = !interfaceEnabled || !jobTitleDirty;
 
             JobPresetOptionButton.Disabled = !interfaceEnabled;
-            GrantAllAccessButton.Disabled = !interfaceEnabled; // WorldDi-Edit
-            RevokeAllAccessButton.Disabled = !interfaceEnabled; // WorldDi-Edit
 
             _accessButtons.UpdateState(state.TargetIdAccessList?.ToList() ??
                                        new List<ProtoId<AccessLevelPrototype>>(),
