@@ -39,5 +39,19 @@ Entries:
   - message: Добавленны автоголосования за режим и карту
     type: Add
   id: 6
-  time: '2026-23-10T15:28:00.0000000+00:00'
+  time: '2026-24-10T15:28:00.0000000+00:00'
   url: https://github.com/WorldDiSS14/WorldDi-Station/pull/12
+- author: loksill
+  changes:
+  - message: Фелиниды теперь могут играть на ролях КМД
+    type: Fix
+  id: 7
+  time: '2026-25-10T05:33:00.0000000+00:00'
+  url: https://github.com/WorldDiSS14/WorldDi-Station/commit/442f3b22cd96d84e35e784eea30f9bc0326a1b47
+- author: loksill
+  changes:
+  - message: Добавленны плюшки некоторых активных игроков
+    type: Add
+  id: 8
+  time: '2026-25-10T09:20:00.0000000+00:00'
+  url: https://github.com/WorldDiSS14/WorldDi-Station/commit/d0e22689cde11883e165d75a4499f198cb9b4fad
