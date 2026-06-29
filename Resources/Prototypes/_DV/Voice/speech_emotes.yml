@@ -196,24 +196,25 @@
     - howling
     - howled
 
-- type: emote
-  id: Awoo
-  name: Awoo
-  category: Vocal
-  icon: _Goobstation/Interface/Emotes/awoo.png
-  whitelist:
-    tags:
-    - VulpEmotes
-    - HarpyEmotes
-  blacklist:
-    components:
-    - BorgChassis
-  chatMessages: [awoos.]
-  chatTriggers:
-    - awoo
-    - awoos
-    - awooing
-    - awooed
+# WorldDi-edit : можно, а зачем?
+#- type: emote
+#  id: Awoo
+#  name: Awoo
+#  category: Vocal
+#  icon: _Goobstation/Interface/Emotes/awoo.png
+#  whitelist:
+#    tags:
+#    - VulpEmotes
+#    - HarpyEmotes
+#  blacklist:
+#    components:
+#    - BorgChassis
+#  chatMessages: [awoos.]
+#  chatTriggers:
+#    - awoo
+#    - awoos
+#    - awooing
+#    - awooed
 
 # Feroxi
 - type: emote
