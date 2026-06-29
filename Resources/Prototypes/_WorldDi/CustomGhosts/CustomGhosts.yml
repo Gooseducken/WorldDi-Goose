@@ -1,0 +1,7 @@
+- type: customGhost
+  id: gooseduck-ghost
+  ckey: gooseduck
+  sprite: /Textures/_MRI/CustomGhosts/gooseduck-ghost.rsi
+  alpha: 0.8
+  ghostName: GooseDuck
+  ghostDescription: "На все ваши идеи я скажу ╟〔💬〕идеи"
