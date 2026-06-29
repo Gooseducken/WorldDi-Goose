@@ -89255,7 +89255,7 @@ entities:
   - uid: 9246
     components:
     - type: MetaData
-      name: Internal Turret Control Panel
+      name: Внутренняя панель управления охранной турелью
     - type: Transform
       pos: 9.5,54.5
       parent: 2
@@ -89272,7 +89272,7 @@ entities:
   - uid: 10622
     components:
     - type: MetaData
-      name: External Turret Control Panel
+      name: Внешняя панель управления охранной турелью
     - type: Transform
       pos: 11.5,54.5
       parent: 2

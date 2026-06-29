@@ -1,12 +1,12 @@
-ent-MeleeDebugSever = дебаг отрезатель конечностей
+ent-MeleeDebugSever = бам-палка (отрезатель)
     .desc = разорву тебя на части через неделю
     .suffix = ДЕБАГ
-ent-MeleeDebugSever100 = дебаг взрыв 100 дмг
+ent-MeleeDebugSever100 = бам-палка (отрезатель, 100 урона)
     .desc = { ent-MeleeDebugSever.desc }
-ent-MeleeDebugSever200 = дебаг взрыв 200 дмг
+ent-MeleeDebugSever200 = бам-палка (отрезатель, 200 урона)
     .desc = { ent-MeleeDebugSever.desc }
-ent-MeleeDebugBurner = взрывная горелка
+ent-MeleeDebugBurner = бам-палка (горелка)
     .desc = сожги свои части тела
     .suffix = ДЕБАГ
-ent-MeleeDebugBurner200 = взрывная горелка 200 дмг
+ent-MeleeDebugBurner200 = бам-палка (горелка, 200 урона)
     .desc = { ent-MeleeDebugBurner.desc }
