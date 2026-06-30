@@ -97,7 +97,7 @@ public abstract class SharedAutodocSystem : EntitySystem
         if (IsActive(ent))
             return;
 
-        if (args.Program >= ent.Comp.Programs.Count)
+        if (args.Program < 0 || args.Program >= ent.Comp.Programs.Count)
             return;
 
         var program = ent.Comp.Programs[args.Program];
@@ -157,11 +157,9 @@ public abstract class SharedAutodocSystem : EntitySystem
             return;
         }
 
-        // for tend wounds dont abort, more wounds need tending
-        if (HasComp<SurgeryRepeatableStepComponent>(args.Step))
-            return;
-
-        ent.Comp.Waiting = repeatable;
+        // step is repeatable and not yet complete (e.g. clamping multiple bleeders) -
+        // the surgery system handles re-queuing it on its own, so the autodoc just
+        // keeps waiting without touching anything.
     }
 
     private void OnSurgeryStepFailed(Entity<ActiveAutodocComponent> ent, ref SurgeryStepFailedEvent args)
@@ -174,6 +172,12 @@ public abstract class SharedAutodocSystem : EntitySystem
         if (program.SkipFailed)
         {
             Say(ent, Loc.GetString("autodoc-error", ("error", error)));
+            // Without this, Waiting stays true forever (Proceed() bails out on its first
+            // line every tick) and CurrentSurgery still points at the cancelled surgery,
+            // so the autodoc freezes permanently the moment any DoAfter gets interrupted
+            // (patient unbuckled, moved out of reach, woke up, power blip, etc).
+            ent.Comp.CurrentSurgery = null;
+            ent.Comp.Waiting = false;
             ent.Comp.ProgramStep++;
         }
         else
@@ -310,6 +314,14 @@ public abstract class SharedAutodocSystem : EntitySystem
         if (ent.Comp.RequireSleeping && IsAwake(patient))
             throw new AutodocError("patient-unsedated");
 
+        // If the part has already been detached from the patient (e.g. by an Amputate
+        // step earlier in this same surgery), there is nothing left to do with it.
+        // SurgeryStepRemoveFeature intentionally strips IncisionOpen/SkinRetracted/etc.
+        // from the part as part of removing it, which otherwise fools GetNextStep into
+        // thinking the surgery needs to restart from incision on the severed limb.
+        if (!TryComp<BodyPartComponent>(part, out var partComp) || partComp.Body != patient)
+            return false;
+
         if (_surgery.GetSingleton(surgery) is not {} singleton)
             throw new AutodocError("reality-breaking");
 
@@ -362,12 +374,16 @@ public abstract class SharedAutodocSystem : EntitySystem
 
         for (int key = 0; key < program.Steps.Count; ++key)
         {
-            if (!program.Steps[key].Validate(ent, this))
+            // AddStep's return is checked too: it silently no-ops once MaxProgramSteps is
+            // hit, so without this an oversized import used to "succeed" while quietly
+            // dropping every step past the limit and leaving a truncated program behind
+            // with no error shown to the player.
+            if (!program.Steps[key].Validate(ent, this) || !AddStep(ent, idx.Value, program.Steps[key], key, user))
             {
-                Log.Warning($"User {ToPrettyString(user)} tried to add an invalid autodoc step!");
+                Log.Warning($"User {ToPrettyString(user)} tried to import an invalid autodoc program!");
+                RemoveProgram(ent, idx.Value);
                 return false;
             }
-            AddStep(ent, idx.Value, program.Steps[key], key, user);
         }
         return true;
     }
@@ -398,7 +414,7 @@ public abstract class SharedAutodocSystem : EntitySystem
     /// </summary>
     public bool RemoveProgram(Entity<AutodocComponent> ent, int index)
     {
-        if (IsActive(ent) || index >= ent.Comp.Programs.Count)
+        if (IsActive(ent) || index < 0 || index >= ent.Comp.Programs.Count)
             return false;
 
         ent.Comp.Programs.RemoveAt(index);
@@ -411,7 +427,7 @@ public abstract class SharedAutodocSystem : EntitySystem
     /// </summary>
     public bool AddStep(Entity<AutodocComponent> ent, int programIndex, IAutodocStep step, int index, EntityUid user)
     {
-        if (IsActive(ent) || programIndex >= ent.Comp.Programs.Count)
+        if (IsActive(ent) || programIndex < 0 || programIndex >= ent.Comp.Programs.Count)
             return false;
 
         var program = ent.Comp.Programs[programIndex];
@@ -430,11 +446,11 @@ public abstract class SharedAutodocSystem : EntitySystem
     /// </summary>
     public bool RemoveStep(Entity<AutodocComponent> ent, int programIndex, int step)
     {
-        if (IsActive(ent) || programIndex >= ent.Comp.Programs.Count)
+        if (IsActive(ent) || programIndex < 0 || programIndex >= ent.Comp.Programs.Count)
             return false;
 
         var program = ent.Comp.Programs[programIndex];
-        if (step >= program.Steps.Count)
+        if (step < 0 || step >= program.Steps.Count)
             return false;
 
         program.Steps.RemoveAt(step);
@@ -456,7 +472,7 @@ public abstract class SharedAutodocSystem : EntitySystem
     public bool StartProgram(Entity<AutodocComponent> ent, int index, EntityUid user)
     {
         // no error since UI checks this too
-        if (IsActive(ent) || index >= ent.Comp.Programs.Count || GetPatient(ent) is not {} patient)
+        if (IsActive(ent) || index < 0 || index >= ent.Comp.Programs.Count || GetPatient(ent) is not {} patient)
             return false;
 
         var active = EnsureComp<ActiveAutodocComponent>(ent);
@@ -512,6 +528,11 @@ public abstract class SharedAutodocSystem : EntitySystem
             if (program.SkipFailed)
             {
                 Say(ent, Loc.GetString("autodoc-error", ("error", error)));
+                // CurrentSurgery may still be set here (e.g. a later step of the same
+                // surgery threw). Without clearing it, the next Proceed() tick resumes
+                // the abandoned surgery instead of the program step we just skipped to,
+                // and ProgramStep can end up incremented twice.
+                ent.Comp2.CurrentSurgery = null;
                 ent.Comp2.ProgramStep++;
             }
             else

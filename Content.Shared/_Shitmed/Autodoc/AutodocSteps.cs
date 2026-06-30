@@ -78,7 +78,10 @@ public sealed partial class SurgeryAutodocStep : IAutodocStep
             var protoMan = IoCManager.Resolve<IPrototypeManager>();
             var proto = protoMan.Index(Surgery);
             var part = Loc.GetString("autodoc-body-part-" + Part.ToString());
-            return Loc.GetString("autodoc-program-step-surgery", ("part", part), ("name", proto.Name));
+            var symmetry = Loc.GetString(Symmetry is {} sym
+                ? "autodoc-body-symmetry-" + sym
+                : "autodoc-body-symmetry-ignored");
+            return Loc.GetString("autodoc-program-step-surgery", ("part", part), ("symmetry", symmetry), ("name", proto.Name));
         }
     }
 
