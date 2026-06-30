@@ -1,0 +1,10 @@
+tennis-game-bundle-name = tennis game bundle
+    .desc = Contains all you need to start a tennis match!
+tennis-ball-name = tennis ball
+    .desc = Made for testing security's patience.
+tennis-racket-name = tennis racket
+    .desc = A robust tennis racket.
+nanotrasen-tennis-racket-name = nanotrasen tennis racket
+    .desc = Team Nanotrasen robust tennis racket!
+syndicate-tennis-racket-name = syndicate tennis racket
+    .desc = Team Syndicate robust tennis racket!

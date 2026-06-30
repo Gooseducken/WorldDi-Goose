@@ -1,0 +1,10 @@
+tennis-game-bundle-name = набор для тенниса
+    .desc = Содержит всё что нужно для матча в теннис!
+tennis-ball-name = мяч для тенниса
+    .desc = Создан для того, чтобы испытывать терпение службы безопасности.
+tennis-racket-name = теннисная ракетка
+    .desc = Прочная теннисная ракетка.
+nanotrasen-tennis-racket-name = теннисная ракетка Nanotrasen
+    .desc = Прочная теннисная ракетка команды Nanotrasen!
+syndicate-tennis-racket-name = теннисная ракетка синдиката
+    .desc = Надежная теннисная ракетка команды синдиката!

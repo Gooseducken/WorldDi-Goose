@@ -151,7 +151,7 @@
 - type: entity
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelTennisGame
-  name: tennis game bundle
+  name: tennis-game-bundle-name
   description: "Contains all you need to start a tennis match!"
   components:
   - type: StorageFill
