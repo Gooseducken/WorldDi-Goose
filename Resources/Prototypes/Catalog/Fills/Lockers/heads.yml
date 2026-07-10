@@ -417,7 +417,7 @@
     - id: DiseaseDiagnoserFlatPack
     - id: VaccinatorFlatPack
     # Goobstation End
-    -id: NevkusnyPlushie # WorldDi
+    - id: NevkusnyPlushie # WorldDi
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
