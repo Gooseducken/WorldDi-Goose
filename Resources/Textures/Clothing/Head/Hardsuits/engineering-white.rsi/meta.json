@@ -9,64 +9,88 @@
     },
     "states": [
         {
-            "name": "icon"
+            "name": "light-overlay"
         },
         {
-            "name": "icon-unshaded"
+            "name": "off-equipped-HELMET"
+        },
+        {
+            "name": "off-equipped-HELMET-dog"
+        },
+        {
+            "name": "off-equipped-HELMET-feroxi"
+        },
+        {
+            "name": "off-equipped-HELMET-hydrakin"
+        },
+        {
+            "name": "off-equipped-HELMET-vox"
+        },
+        {
+            "name": "off-equipped-HELMET-vulpkanin"
+        },
+        {
+            "name": "on-equipped-HELMET"
+        },
+        {
+            "name": "on-equipped-HELMET-dog"
+        },
+        {
+            "name": "on-equipped-HELMET-feroxi"
+        },
+        {
+            "name": "on-equipped-HELMET-hydrakin"
+        },
+        {
+            "name": "on-equipped-HELMET-vox"
+        },
+        {
+            "name": "on-equipped-HELMET-vulpkanin"
+        },
+        {
+            "name": "equipped-head"
+        },
+        {
+            "name": "equipped-head-dog"
+        },
+        {
+            "name": "equipped-head-light"
+        },
+        {
+            "name": "equipped-head-light-dog"
+        },
+        {
+            "name": "equipped-head-light-vox"
+        },
+        {
+            "name": "equipped-head-light-vulpkanin"
+        },
+        {
+            "name": "equipped-head-unshaded"
+        },
+        {
+            "name": "equipped-head-unshaded-dog"
+        },
+        {
+            "name": "equipped-head-unshaded-vox"
+        },
+        {
+            "name": "equipped-head-unshaded-vulpkanin"
+        },
+        {
+            "name": "equipped-head-vox"
+        },
+        {
+            "name": "equipped-head-vulpkanin"
+        },
+        {
+            "name": "icon"
         },
         {
             "name": "icon-flash"
         },
         {
-            "name": "light-overlay"
-        },
-        {
-            "name": "equipped-head",
-            "directions": 4
-        },
-        {
-            "name": "equipped-head-light",
-            "directions": 4
-        },
-        {
-            "name": "equipped-head-unshaded",
-            "directions": 4
-        },
-        {
-            "name": "equipped-head-vox",
-            "directions": 4
-        },
-        {
-            "name": "equipped-head-light-vox",
-            "directions": 4
-        },
-        {
-            "name": "equipped-head-unshaded-vox",
-            "directions": 4
-        },
-        {
-            "name": "equipped-head-dog",
-            "directions": 4
-        },
-        {
-            "name": "equipped-head-light-dog",
-            "directions": 4
-        },
-        {
-            "name": "equipped-head-unshaded-dog",
-            "directions": 4
-        },
-        {
-            "name": "equipped-head-vulpkanin",
-            "directions": 4
-        },
-        {
-            "name": "equipped-head-light-vulpkanin",
-            "directions": 4
-        },
-        {
-            "name": "equipped-head-unshaded-vulpkanin",
-            "directions": 4
+            "name": "icon-unshaded"
         }
     ]
 }
