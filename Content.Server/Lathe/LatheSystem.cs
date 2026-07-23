@@ -32,7 +32,8 @@ using Robust.Server.GameObjects;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
-using Content.Goobstation.Common.NTR.Scan; // Goobstation
+using Content.Goobstation.Common.NTR.Scan;
+using Content.Server._CorvaxGoob.Document; // Goobstation
 
 namespace Content.Server.Lathe
 {
@@ -248,6 +249,7 @@ namespace Content.Server.Lathe
                         || _materialStorage.TryChangeMaterialAmount(uid, composition.MaterialComposition))
                     {
                         var result = Spawn(resultProto, Transform(uid).Coordinates);
+                        RaiseLocalEvent(uid, new LatheGetResultEvent(result)); // CorvaxGoob-Prefilled-Printers
                         _stack.TryMergeToContacts(result);
 
                         // <Goobstation> No NTR factorio
