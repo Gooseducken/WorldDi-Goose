@@ -238,3 +238,7 @@ reagent-name-whiskey-sour = виски сауэр
 reagent-desc-whiskey-sour = Что за секретный ингредиент? Яйца. Это яйца.
 reagent-name-bacchus-blessing = благословение бахуса
 reagent-desc-bacchus-blessing = Вы не думали, что жидкость может быть настолько отвратительной. Вы уверены в этом...?
+reagent-name-the-martinez = Мартинес
+reagent-desc-the-martinez = Легенда среди киберпанков. Вспоминается по напитку, забывается по пьяни.
+reagent-name-white-gilgamesh = белый Гильгамеш
+reagent-desc-white-gilgamesh = Тошнотворная смесь молока и пива. Вызывает ощущение одеревенелости.

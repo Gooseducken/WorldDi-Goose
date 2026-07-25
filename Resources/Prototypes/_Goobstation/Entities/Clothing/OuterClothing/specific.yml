@@ -148,42 +148,6 @@
       head: ClothingHeadHatHoodHereticCostume
 
 - type: entity
-  parent: ClothingOuterBaseToggleable
-  id: ClothingOuterSchemaMonk
-  name: монашеское облачение
-  description: Знак полного отречения от мира и принятия подвига. Его носят те, кто избрал путь молитвы и борьбы за человеческую душу. В тишине космоса оно кажется особенно уместным.
-  components:
-  - type: Sprite
-    sprite: _Goobstation/Clothing/OuterClothing/Misc/schema_monk.rsi
-  - type: Clothing
-    sprite: _Goobstation/Clothing/OuterClothing/Misc/schema_monk.rsi
-  - type: ToggleableClothing
-    clothingPrototypes:
-      head: ClothingHeadHatHoodSchemaMonk
-  - type: Armor
-    coverage:
-    - Chest
-    - Groin
-    - Arm
-    - Hand
-    - Leg
-    - Foot
-    - Tail
-    modifiers:
-      coefficients:
-        Blunt: 0.5
-        Slash: 0.5
-        Piercing: 0.5
-        Heat: 0.5
-        Caustic: 0.5
-    traumaDeductions:
-      Dismemberment: 0.5
-      OrganDamage: 0.5
-      BoneDamage: 0.5
-      VeinsDamage: 0.0
-      NerveDamage: 0.0
-
-- type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, BaseMajorContraband]
   id: ClothingOuterBrassArmor
   name: латунная броня

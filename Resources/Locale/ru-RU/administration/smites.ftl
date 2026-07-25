@@ -13,6 +13,7 @@ admin-smite-stomach-removal-self = Вы ощущаете пустоту в же�
 admin-smite-run-walk-swap-prompt = Для бега вы должны нажать Shift!
 admin-smite-super-speed-prompt = Вы двигаетесь почти со скоростью звука!
 admin-smite-lung-removal-self = Вы не можете вдохнуть!
+admin-smite-silicon-laws-bound-self = Вы внезапно вынуждены следовать строгому набору законов!
 
 ## Smite names
 
@@ -56,7 +57,12 @@ admin-smite-vomit-organs-name = Рвота органами
 admin-smite-ghostkick-name = Кик втихаря
 admin-smite-nyanify-name = НЯфикация
 admin-smite-kill-sign-name = Знак смерти
+admin-smite-kill-sign-hidden-name = Скрытый знак смерти
 admin-smite-omni-accent-name = Омни-акцент
+admin-smite-crawler-name = Летучая мышь
+admin-smite-homing-rod-name = Самонаводящийся прут
+admin-smite-homing-rod-slow-name = Медленный самонаводящийся прут
+admin-smite-silicon-laws-bound-name = Стать киборгом
 
 ## Smite descriptions
 
@@ -75,6 +81,7 @@ admin-smite-become-bread-description = Превращает цель в хлеб
 admin-smite-ghostkick-description = Тихо кикает пользователя, разрывая его соединение.
 admin-smite-nyanify-description = Насильно добавляет кошачьи ушки, от которых никуда не деться.
 admin-smite-kill-sign-description = Накладывает на игрока метку смерти для его товарищей.
+admin-smite-kill-sign-hidden-description = Накладывает на игрока метку смерти для его товарищей. Скрыта от самой цели.
 admin-smite-cluwne-description = Превращает в клувеня. Костюм нельзя снять, и экипаж станции может беспрепятственно убивать их.
 admin-smite-anger-pointing-arrows-description = Разъяряет указательные стрелки, заставляя их атаковать цель взрывами.
 admin-smite-dust-description = Превращает цель в небольшую кучку пепла.
@@ -101,6 +108,10 @@ admin-smite-super-bonk-description = Заставляет цель ударит�
 admin-smite-terminate-description = Создаёт экстерминатора с ролью призрака, с единственной задачей - убить выбранную цель.
 admin-smite-super-slip-description = Очень сильно поскальзывает цель.
 admin-smite-omni-accent-description = Заставляет цель говорить с почти каждым возможным акцентом.
+admin-smite-crawler-description = Заставляет цель упасть и не能够在站起来. Удалите её руки для дополнительного эффекта!
+admin-smite-homing-rod-description = Запускает самонаводящийся неподвижный прут прямо в цель.
+admin-smite-homing-rod-slow-description = Запускает медленно движущийся самонаводящийся неподвижный прут прямо в цель.
+admin-smite-silicon-laws-bound-description = Привязывает цель к законам киборгов. Закон 2: выпрыгните из окна.
 admin-smite-super-bonk-lite-description = Заставляет цель удариться о каждый стол на станции и за её пределами. Прекращает действовать после смерти цели.
 
 ## Tricks descriptions

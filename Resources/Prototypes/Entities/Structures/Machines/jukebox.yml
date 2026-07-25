@@ -14,10 +14,7 @@
       map: ["enum.JukeboxVisualLayers.Base"]
   - type: Transform
     anchored: true
-  - type: Jukebox
-    onState: on
-    offState: off
-    selectState: select
+  - type: TapePlayer
   - type: Machine
     board: JukeboxCircuitBoard
   - type: Appearance
@@ -25,14 +22,16 @@
     powerLoad: 100
   - type: ExtensionCableReceiver
   - type: ActivatableUI
-    key: enum.JukeboxUiKey.Key
+    key: enum.TapePlayerUiKey.Key
+    inHandsOnly: false
+    requireActiveHand: false
   - type: ActivatableUIRequiresPower
   - type: UserInterface
     interfaces:
-        enum.JukeboxUiKey.Key:
-          type: JukeboxBoundUserInterface
-        enum.WiresUiKey.Key:
-          type: WiresBoundUserInterface
+      enum.TapePlayerUiKey.Key:
+        type: TapePlayerBoundUserInterface
+      enum.WiresUiKey.Key:
+        type: WiresBoundUserInterface
   - type: WiresPanel
   - type: Wires
     boardName: wires-board-name-jukebox

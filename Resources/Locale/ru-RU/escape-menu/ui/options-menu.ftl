@@ -99,6 +99,9 @@ ui-options-vp-vertical-fit-tooltip =
     Когда функция включена, основное окно просмотра не будет учитывать горизонтальную ось
     при подгонке под ваш экран. Если ваш экран меньше, чем окно просмотра,
     то это приведёт к его обрезанию по горизонтальной оси.
+ui-options-filter-label = Фильтр масштабирования:
+ui-options-filter-nearest = Без сглаживания
+ui-options-filter-bilinear = Билинейное (сглаженное)
 ui-options-vp-low-res = Изображение низкого разрешения
 ui-options-parallax-low-quality = Низкокачественный параллакс (фон)
 ui-options-ambient-occlusion = Показывать Ambient Occlusion
@@ -132,11 +135,13 @@ ui-options-header-text-chat = Чат
 ui-options-header-text-other = Прочий ввод текста
 ui-options-hotkey-keymap = Использовать клавиши QWERTY (США)
 ui-options-hotkey-toggle-walk = Переключать шаг\бег
+ui-options-hotkey-default-walk = Идти по умолчанию
 ui-options-function-move-up = Двигаться вверх
 ui-options-function-move-left = Двигаться налево
 ui-options-function-move-down = Двигаться вниз
 ui-options-function-move-right = Двигаться направо
 ui-options-function-walk = Идти
+ui-options-function-toggle-knockdown = Ползти
 ui-options-function-toggle-standing = Ползти/стоять
 ui-options-function-camera-rotate-left = Повернуть налево
 ui-options-function-camera-rotate-right = Повернуть направо
@@ -155,12 +160,17 @@ ui-options-function-alt-activate-item-in-world = Альтернативно ис
 ui-options-function-drop = Положить предмет
 ui-options-function-examine-entity = Осмотреть
 ui-options-function-swap-hands = Поменять руки
+ui-options-function-swap-hands-reverse = Поменять руки (обратное направление)
 ui-options-function-move-stored-item = Переместить хранящийся объект
 ui-options-function-rotate-stored-item = Повернуть хранящийся объект
 ui-options-function-save-item-location = Сохранить расположение объекта
 ui-options-static-storage-ui = Закрепить интерфейс хранилища на хотбаре
 ui-options-function-smart-equip-backpack = Умная экипировка в рюкзак
 ui-options-function-smart-equip-belt = Умная экипировка на пояс
+ui-options-function-smart-equip-suit-storage = Умная экипировка в хранилище скафандра
+ui-options-function-smart-equip-pocket1 = Умная экипировка в карман 1
+ui-options-function-smart-equip-pocket2 = Умная экипировка в карман 2
+ui-options-function-smart-equip-back = Умная экипировка в спину
 ui-options-function-open-backpack = Открыть рюкзак
 ui-options-function-open-belt = Открыть пояс
 ui-options-function-throw-item-in-hand = Бросить предмет
@@ -214,6 +224,11 @@ ui-options-function-editor-copy-object = Копировать
 ui-options-function-show-debug-console = Открыть консоль
 ui-options-function-show-debug-monitors = Показать дебаг информацию
 ui-options-function-inspect-entity = Изучить сущность
+ui-options-function-inspect-entity-tooltip = Открыть окно ViewVariables для сущности, на которой находится курсор мыши.
+ui-options-function-inspect-server-component = Изучить серверный компонент
+ui-options-function-inspect-server-component-tooltip = Открыть окно ViewVariables с серверным компонентом, установленным командой "quickinspect", для сущности, на которой находится курсор мыши.
+ui-options-function-inspect-client-component = Изучить клиентский компонент
+ui-options-function-inspect-client-component-tooltip = Открыть окно ViewVariables с клиентским компонентом, установленным командой "quickinspect", для сущности, на которой находится курсор мыши.
 ui-options-function-hide-ui = Спрятать интерфейс
 ui-options-function-hotbar1 = 1 слот хотбара
 ui-options-function-hotbar2 = 2 слот хотбара
@@ -225,17 +240,16 @@ ui-options-function-hotbar7 = 7 слот хотбара
 ui-options-function-hotbar8 = 8 слот хотбара
 ui-options-function-hotbar9 = 9 слот хотбара
 ui-options-function-hotbar0 = 0 слот хотбара
-# Goobstation - Extra hotbar hotkeys
-ui-options-function-hotbarshift1 = слот хотбара Shift+1
-ui-options-function-hotbarshift2 = слот хотбара Shift+2
-ui-options-function-hotbarshift3 = слот хотбара Shift+3
-ui-options-function-hotbarshift4 = слот хотбара Shift+4
-ui-options-function-hotbarshift5 = слот хотбара Shift+5
-ui-options-function-hotbarshift6 = слот хотбара Shift+6
-ui-options-function-hotbarshift7 = слот хотбара Shift+7
-ui-options-function-hotbarshift8 = слот хотбара Shift+8
-ui-options-function-hotbarshift9 = слот хотбара Shift+9
-ui-options-function-hotbarshift0 = слот хотбара Shift+0
+ui-options-function-hotbar-shift1 = Слот хотбара Shift+1
+ui-options-function-hotbar-shift2 = Слот хотбара Shift+2
+ui-options-function-hotbar-shift3 = Слот хотбара Shift+3
+ui-options-function-hotbar-shift4 = Слот хотбара Shift+4
+ui-options-function-hotbar-shift5 = Слот хотбара Shift+5
+ui-options-function-hotbar-shift6 = Слот хотбара Shift+6
+ui-options-function-hotbar-shift7 = Слот хотбара Shift+7
+ui-options-function-hotbar-shift8 = Слот хотбара Shift+8
+ui-options-function-hotbar-shift9 = Слот хотбара Shift+9
+ui-options-function-hotbar-shift0 = Слот хотбара Shift+0
 ui-options-function-loadout1 = 1 страница хотбара
 ui-options-function-loadout2 = 2 страница хотбара
 ui-options-function-loadout3 = 3 страница хотбара
@@ -246,7 +260,6 @@ ui-options-function-loadout7 = 7 страница хотбара
 ui-options-function-loadout8 = 8 страница хотбара
 ui-options-function-loadout9 = 9 страница хотбара
 ui-options-function-loadout0 = 0 страница хотбара
-# Goobstation - Extra hotbar hotkeys
 ui-options-function-loadoutshift1 = Лодаут Хотбара Shift+1
 ui-options-function-loadoutshift2 = Лодаут Хотбара Shift+2
 ui-options-function-loadoutshift3 = Лодаут Хотбара Shift+3
@@ -343,6 +356,8 @@ ui-options-chat-window-opacity = Непрозрачность окна чата
 ui-options-speech-bubble-text-opacity = Непрозрачность текста речевого пузыря
 ui-options-speech-bubble-speaker-opacity = Непрозрачность диктора речевого пузыря
 ui-options-speech-bubble-background-opacity = Непрозрачность фона речевого пузыря
+# Goobstation - Highlight chat sounds!
+ui-options-highlight-sound = Воспроизводить звук при выделении
 ui-options-censor-nudity = Цензура обнажённых персонажей
 
 ## Admin menu
@@ -363,6 +378,11 @@ ui-options-function-target-left-foot = Левая ступня
 ui-options-function-target-right-foot = Правая ступня
 
 ui-options-admin-player-panel = Список персонажей в админ меню
+
+ui-options-admin-player-tab-symbol-setting = Антаг-символы в колонке персонажей
+ui-options-admin-player-tab-symbol-setting-off = Без символа антагониста
+ui-options-admin-player-tab-symbol-setting-basic = Показывать стандартный символ антагониста
+ui-options-admin-player-tab-symbol-setting-specific = Показывать особый символ антагониста
 
 ui-options-admin-player-tab-role-setting = Настройки отображения ролей
 ui-options-admin-player-tab-role-setting-roletype = Показывать тип роли

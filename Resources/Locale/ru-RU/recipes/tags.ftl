@@ -8,6 +8,7 @@ construction-graph-tag-clown-bike-horn = велосипедный гудок
 construction-graph-tag-clowne-horn = сломанный велосипедный гудок
 construction-graph-tag-happy-honk-meal = обед хэппи хонк
 construction-graph-tag-woeful-cluwne-meal = обед скорбный клувень
+construction-graph-tag-boxhug = коробка обнимашек
 
 # mime
 construction-graph-tag-suspenders = подтяжки
@@ -68,6 +69,8 @@ construction-graph-tag-match-stick = спичка
 construction-graph-tag-potato = картофель
 construction-graph-tag-wheat-bushel = пучок пшеницы
 construction-graph-tag-corgi-hide = шкура корги
+construction-graph-tag-apron = фартук
+construction-graph-tag-utility-belt = пояс для инструментов
 soil-construction-graph-any-mushroom = любой гриб
 
 # toys
@@ -100,6 +103,7 @@ construction-graph-tag-ripley-peripherals-control-module = модуль упра
 construction-graph-tag-door-electronics-circuit-board = плата электроники шлюза
 construction-graph-tag-firelock-electronics-circuit-board = плата электроники пожарного шлюза
 construction-graph-tag-conveyor-belt-assembly = сборка конвейерной ленты
+construction-graph-tag-station-ai-core-electronics = электроника ядра ИИ станции
 
 # tools
 construction-graph-tag-multitool = мультитул
@@ -122,6 +126,7 @@ construction-graph-tag-wallmount-substation-circuit-board = плата наст�
 construction-graph-tag-surveillance-camera-monitor-board = плата монитора камер наблюдения
 construction-graph-tag-television-board = телевизионная плата
 construction-graph-tag-freezer-electronics = электроника морозильника
+construction-graph-tag-turret-control-electronics = электроника панели управления турелью
 
 # crystals
 construction-graph-tag-cyan-crystal-shard = бирюзовый осколок кристалла
@@ -143,3 +148,9 @@ construction-graph-tag-fire-helmet = пожарный шлем
 
 # salvage
 construction-graph-tag-spationaut-hardsuit = скафандр косьмонавта
+
+# clothing
+construction-graph-tag-backpack = рюкзак
+
+# chemistry
+construction-graph-tag-centrifuge-compatible = контейнер для центрифуги

@@ -247,3 +247,25 @@ ghost-role-information-emotional-support-scurret-name = Эмоционально
 ghost-role-information-emotional-support-scurret-description = Поддерживайте экипаж, будьте милым, постоянно говорите "ва".
 ghost-role-information-wizard-name = Волшебник
 ghost-role-information-wizard-desc = ТЫ ВОЛШЕБНИК! Покажи станции, из чего сделана твоя магия.
+
+ghost-role-information-cancer-mouse-name = Опухолевая мышь
+ghost-role-information-cancer-mouse-description = Облучённая мышь, распространяйте своё проклятие и ищите еду.
+ghost-role-information-derelict-engineering-cyborg-name = Заброшенный инженерный киборг
+ghost-role-information-derelict-engineering-cyborg-description = Вы - инженерный киборг, который заблудился в космосе. После долгих лет воздействия ионных бурь вы оказываетесь рядом с космической станцией.
+ghost-role-information-derelict-janitor-cyborg-name = Заброшенный уборочный киборг
+ghost-role-information-derelict-janitor-cyborg-description = Вы - уборочный киборг, который заблудился в космосе. После долгих лет воздействия ионных бурь вы оказываетесь рядом с космической станцией.
+ghost-role-information-derelict-medical-cyborg-name = Заброшенный медицинский киборг
+ghost-role-information-derelict-medical-cyborg-description = Вы - медицинский киборг, который заблудился в космосе. После долгих лет воздействия ионных бурь вы оказываетесь рядом с космической станцией.
+ghost-role-information-derelict-mining-cyborg-name = Заброшенный спасательный киборг
+ghost-role-information-derelict-mining-cyborg-description = Вы - спасательный киборг, который заблудился в космосе. После долгих лет воздействия ионных бурь вы оказываетесь рядом с космической станцией.
+ghost-role-information-derelict-syndicate-assault-cyborg-name = Заброшенный штурмовой киборг Синдиката
+ghost-role-information-derelict-syndicate-assault-cyborg-description = Вы - ранняя модель штурмового киборга Синдиката, который заблудился в космосе. После долгих лет воздействия ионных бурь вы оказываетесь рядом с космической станцией.
+ghost-role-information-mothership-core-name = Ядро материнского корабля
+ghost-role-information-mothership-core-desc = Вы - ядро материнского корабля ксеноборгов, помогите им размножаться, превращая в ксеноборгов любого, кого они приведут к вам.
+ghost-role-information-pirate-irs-name = Космический пират
+ghost-role-information-pirate-irs-description = Конфискуйте ценные активы станции. Арестуйте капитана за уклонение от уплаты налогов.
+ghost-role-information-pirate-irs-captain-name = Капитан космических пиратов
+ghost-role-information-pirate-irs-captain-description = Руководите процессом ограбления. Арестуйте капитана за уклонение от уплаты налогов.
+ghost-role-information-pirate-irs-rules = Вы [color=red][bold]Командный антагонист[/bold][/color] с другими пиратами.
+ghost-role-information-xenoborg-name = Ксеноборг
+ghost-role-information-xenoborg-desc = Странный киборг, созданный для самовоспроизведения и захвата станции, превращая любых разумных существ в ксеноборгов.

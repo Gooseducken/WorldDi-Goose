@@ -8,3 +8,7 @@ admin-solutions-window-heat-capacity-label = Теплоёмкость: { $heatCa
 admin-solutions-window-temperature-label = Температура (К):
 admin-solutions-window-thermal-energy-label = Тепловая энергия (Дж):
 admin-solutions-window-thermals = Thermals
+admin-solutions-window-solution-button = Раствор
+admin-solutions-window-solution-button-tooltip = Открывает соответствующий серверный экземпляр раствора в ViewVariables. Полезно для отладки проблем предсказания.
+admin-solutions-window-vv-button = VV
+admin-solutions-window-vv-button-tooltip = Открывает соответствующую сущность раствора в ViewVariables.

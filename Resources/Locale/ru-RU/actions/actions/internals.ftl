@@ -1,4 +1,12 @@
 action-name-internals-toggle = Переключить подачу воздуха
+action-name-internals-toggle-on = Включить подачу воздуха
+action-name-internals-toggle-off = Выключить подачу воздуха
 action-description-internals-toggle = Дышите из экипированного газового баллона. Требуется надетая дыхательная маска.
+action-description-internals-toggle-on = Дышите из экипированного газового баллона. Также требуется надетая дыхательная маска.
+action-description-internals-toggle-off = Дышите из окружающей среды.
 internals-no-breath-tool = Не экипирована дыхательная маска
+internals-self-no-breath-tool = У вас нет дыхательного инструмента
+internals-other-no-breath-tool = { $ent } не носит дыхательный инструмент
 internals-no-tank = Не экипирован баллон для дыхания
+internals-self-no-tank = У вас нет газового баллона
+internals-other-no-tank = { $ent } не носит газовый баллон

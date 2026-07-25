@@ -7,6 +7,9 @@ admin-verb-make-pirate = Сделать цель пиратом\капером. 
 admin-verb-make-head-rev = Сделать цель главой революции.
 admin-verb-make-thief = Сделать цель вором.
 admin-verb-make-paradox-clone = Создать роль призрака парадоксального клона цели.
+admin-verb-make-wizard = Сделать цель волшебником.
+admin-verb-make-space-ninja = Сделать цель космическим ниндзя.
+admin-verb-make-changeling = Сделать цель сменщиком облика.
 
 admin-verb-text-make-traitor = Сделать предателем
 admin-verb-text-make-initial-infected = Сделать нулевым пациентом
@@ -16,5 +19,8 @@ admin-verb-text-make-pirate = Сделать пиратом
 admin-verb-text-make-head-rev = Сделать Главой революции
 admin-verb-text-make-thief = Сделать вором
 admin-verb-text-make-paradox-clone = Сделать парадоксального клона
+admin-verb-text-make-wizard = Сделать волшебником
+admin-verb-text-make-space-ninja = Сделать ниндзя
+admin-verb-text-make-changeling = Сделать сменщиком облика
 
 admin-overlay-antag-classic = АНТАГ

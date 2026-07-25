@@ -8,6 +8,10 @@ shell-invalid-command-specific = Неверная команда { $commandName 
 shell-cannot-run-command-from-server = Вы не можете выполнить эту команду с сервера.
 shell-only-players-can-run-this-command = Только игроки могут выполнять эту команду.
 shell-must-be-attached-to-entity = Для выполнения этой команды вы должны быть прикреплены к сущности.
+shell-can-only-run-from-pre-round-lobby = Эту команду можно выполнять только в лобби перед раундом.
+shell-can-only-run-while-round-is-active = Эту команду можно выполнять только во время раунда.
+shell-must-have-body = Для выполнения этой команды у вас должно быть тело.
+shell-need-exactly-zero-arguments = Эта команда не принимает аргументов.
 
 ## Arguments
 
@@ -32,6 +36,7 @@ shell-argument-uid = EntityUid
 
 ## Guards
 
+shell-missing-required-permission = Для этой команды вам нужно разрешение { $perm }!
 shell-entity-is-not-mob = Целевая сущность не является мобом!
 shell-invalid-entity-id = Недопустимый ID сущности.
 shell-invalid-grid-id = Недопустимый ID сетки.
@@ -42,6 +47,7 @@ shell-entity-uid-must-be-number = EntityUid должен быть числом.
 shell-could-not-find-entity = Не удалось найти сущность { $entity }.
 shell-could-not-find-entity-with-uid = Не удалось найти сущность с uid { $uid }.
 shell-entity-with-uid-lacks-component = Сущность с uid { $uid } не имеет компонента { $componentName }.
+shell-entity-target-lacks-component = Целевая сущность не имеет компонента { $componentName }.
 shell-invalid-color-hex = Недопустимый HEX-цвет!
 shell-target-player-does-not-exist = Целевой игрок не существует!
 shell-target-entity-does-not-have-message = Целевая сущность не имеет { $missing }!

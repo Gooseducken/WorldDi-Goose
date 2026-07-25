@@ -1,7 +1,9 @@
 # Generic
 lathe-category-ammo = Боеприпасы
 lathe-category-circuitry = Электроника
+lathe-category-clothing = Одежда
 lathe-category-lights = Лампы
+lathe-category-machines = Машины
 lathe-category-mechs = Мехи
 lathe-category-parts = Компоненты
 lathe-category-robotics = Робототехника
@@ -11,6 +13,31 @@ lathe-category-weapons = Вооружение
 lathe-category-food = Пища
 lathe-category-chemicals = Химикаты
 lathe-category-materials = Материалы
+# Circuit imprinter
+lathe-category-computers = Компьютеры
+lathe-category-engineering = Инженерия
+lathe-category-general = Общее
+lathe-category-medical = Медицина
+lathe-category-research = Исследования
+lathe-category-security = Безопасность
+lathe-category-service = Сервис
+lathe-category-supply = Снабжение
+# Cutter
+lathe-category-tiles = Плитка
+lathe-category-circuit-tile = Микросхемы
+lathe-category-concrete-tile = Бетон
+lathe-category-dark-tile = Тёмная
+lathe-category-faux-tile = Искусственная
+lathe-category-maints-tile = Техническая
+lathe-category-marble = Мрамор
+lathe-category-steel-tile = Стальная
+lathe-category-white-tile = Белая
+lathe-category-wood-tile = Деревянная
+# Science
+lathe-category-modules = Модули
+# Security TechFab
+lathe-category-boxes = Коробки
+lathe-category-magazines = Магазины
 # Uniform
 lathe-category-bedsheets = Одеяла
 lathe-category-carpets = Ковры

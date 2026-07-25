@@ -9,10 +9,7 @@
     layers:
     - state: "off"
       map: ["enum.JukeboxVisualLayers.Base"]
-  - type: Jukebox
-    onState: off # Indicates the presence of power, not playback
-    offState: off
-    selectState: select
+  - type: TapePlayer # WorldDi
   - type: Item
     sprite: _Orion/Objects/Devices/boombox.rsi
     size: Large
@@ -20,11 +17,13 @@
     - 0,0,3,2
   - type: Appearance
   - type: ActivatableUI
-    key: enum.JukeboxUiKey.Key
+    key: enum.TapePlayerUiKey.Key
+    inHandsOnly: true
+    requireActiveHand: false
   - type: UserInterface
     interfaces:
-        enum.JukeboxUiKey.Key:
-          type: JukeboxBoundUserInterface
+      enum.TapePlayerUiKey.Key:
+        type: TapePlayerBoundUserInterface
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: Metallic

@@ -35,3 +35,12 @@ hud-chatbox-channel-CollectiveMind = Коллективный разум
 hud-chatbox-channel-Visual = Визуальный
 hud-chatbox-channel-Damage = Повреждения
 hud-chatbox-channel-Unspecified = Неопределённый
+
+hud-chatbox-highlights = Подсветка:
+hud-chatbox-highlights-button = Применить
+hud-chatbox-highlights-tooltip = Слова должны быть разделены переносом строки,
+                                 если обёрнуты в " ", то будут подсвечиваться
+                                 только если разделены пробелами или знаками препинания.
+hud-chatbox-highlights-placeholder = @McHands
+                                     "Judge"
+                                     Medical
