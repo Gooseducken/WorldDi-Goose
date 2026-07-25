@@ -35,22 +35,16 @@
   sound: /Audio/_WorldDi/Music/Cut Capers - One More Drink.ogg
 
 - type: musicTape
-  id: music_007_Femtanyl___CANNIBAL_
-  songName: "Femtanyl - CANNIBAL!"
-  categoryId: musicElectronic
-  sound: /Audio/_WorldDi/Music/Femtanyl - CANNIBAL!.ogg
-
-- type: musicTape
   id: music_008_Femtanyl___GIRL_HELL_1999
   songName: "Femtanyl - GIRL HELL 1999"
   categoryId: musicElectronic
   sound: /Audio/_WorldDi/Music/Femtanyl - GIRL HELL 1999.ogg
 
 - type: musicTape
-  id: music_009_Femtanyl___LOVESICK
-  songName: "Femtanyl - LOVESICK"
+  id: music_009_Femtanyl___LOVESICK,_CANNIBAL!
+  songName: "Femtanyl - LOVESICK, CANNIBAL!"
   categoryId: musicElectronic
-  sound: /Audio/_WorldDi/Music/Femtanyl - LOVESICK.ogg
+  sound: /Audio/_WorldDi/Music/Femtanyl - LOVESICK, CANNIBAL!.ogg
 
 - type: musicTape
   id: music_010_Femtanyl___P3T
